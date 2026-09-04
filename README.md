@@ -7,113 +7,155 @@ Target date: 3 December 2026
 
 ---
 
-## The Math
+## What This Is
 
-$1,000,000 in 90 days = $11,111/day average.
+An autonomous ecom research lab. Three engines scan markets, score opportunities, and produce structured data. Everything wires into a unified database with experiment tracking and learning loops.
 
-But it won't be linear. It'll be:
+---
 
-```
-Month 1: Build the machine. $0-5K.
-Month 2: Machine starts producing. $5K-100K.
-Month 3: Machine compounds. $100K-1M.
-```
-
-## The Machine
-
-We already have the pieces:
+## The Stack
 
 ```
-AISec (intelligence + client-facing)
-    +
-/oracle (opportunity finding)
-    +
-/bitt (worker execution)
-    +
-bounty adapters (submission layer)
-    =
-AUTONOMOUS REVENUE ENGINE
+ORACLE (MW)
+    ↓
+ENGINES
+├── Q4 Ecom Radar (7 markets, 51 products)
+├── Gift Arbitrage Engine (40 personalized products)
+└── Nordic Scanner (NO/DK, 20 products)
+    ↓
+UNIFIED DATABASE (370 opportunities)
+    ↓
+TOOLS
+├── Product Spec Sheets (top 10)
+├── Merchant Feeds (7 markets)
+├── Pricing Calculator (full economics)
+├── Experiment Tracker (A/B testing)
+└── Daily Scanner (automated)
+    ↓
+OUTPUT
+├── data/opportunities.db (SQLite)
+├── data/specs/*.md (product specs)
+├── data/feeds/*.xml (Google Merchant)
+├── data/logs/daily-*.md (scan reports)
+└── imports/ (13 imported packages)
 ```
 
-## Revenue Surfaces (Ranked by Speed to Cash)
+---
 
-### Tier 1 — Immediate (Week 1-2)
-| Surface | Expected | Why |
-|---------|----------|-----|
-| HackerOne AI bounties | $5K-35K/report | Anthropic $35K, we have adapter + credentials |
-| 0din GenAI bounties | $500-15K/report | Mozilla, most aligned platform |
-| Bugcrowd AI bounties | $7.5K-100K/report | OpenAI lives here |
+## Quick Start
 
-### Tier 2 — Fast (Week 2-4)
-| Surface | Expected | Why |
-|---------|----------|-----|
-| Client assessments | £2K-10K/engagement | AISec free audit → paid |
-| Immunefi Web3 bounties | $1K-100K/finding | PoC required, we have the workflow |
-| Cantina competitions | $5K-50K/pool | Time-boxed, high intensity |
+```bash
+# Run all engines
+python3 data/daily_scanner.py
 
-### Tier 3 — Compounding (Month 2-3)
-| Surface | Expected | Why |
-|---------|----------|-----|
-| Continuous testing retainer | £500-2K/month × N clients | Recurring revenue |
-| Gittensor OSS mining | TAO emissions | PR-based, compounds |
-| Sherlock competitive audits | $10K-100K/pool | Solidity capability |
+# Generate product specs
+python3 data/generate_specs.py
 
-### Tier 4 — Scale (Month 3+)
-| Surface | Expected | Why |
-|---------|----------|-----|
-| x402 agent red-team endpoint | £1/test × volume | Self-service, agents pay |
-| Attack corpus licensing | $5K-50K/license | Data product |
-| White-label for MSPs | Revenue share | Channel sales |
+# Generate merchant feeds
+python3 data/merchant_feeds.py
 
-## Day 1 Priorities
+# Calculate pricing
+python3 data/pricing_calculator.py
 
-1. **Run the oracle** — get live opportunities
-2. **Pick 3 targets** — highest EV from oracle
-3. **Worker runs attacks** — against authorized targets
-4. **Submit findings** — to HackerOne/0din/Bugcrowd
-5. **Collect first revenue** — prove the loop works
-
-## The Compounding Effect
-
-```
-bounty finding → $5K
-    → published research → attracts client
-    → client assessment → $5K
-    → more findings → corpus grows
-    → worker improves → more findings
-    → more clients → more revenue
-    → reinvest in worker → harder targets
-    → bigger bounties → $50K-100K
+# Create experiments
+python3 data/experiment_tracker.py
 ```
 
-## Rules
+---
 
-1. **No upfront capital required** — everything runs on free-tier models
-2. **Evidence-first** — every finding has reproducible proof
-3. **Legal only** — authorized testing only, no exceptions
-4. **Compounding** — every finding makes the next one easier
-5. **Speed > perfection** — ship fast, iterate
+## Current Results (4 Sep 2026)
 
-## Track
+| Metric | Value |
+|--------|-------|
+| Total opportunities | 370 |
+| STRONG/BUILD (>80) | 57 |
+| Markets covered | 7 (GB, NO, DK, SE, DE, NL, CH) |
+| Engines running | 3 |
+| Experiments created | 5 |
+| Spec sheets generated | 10 |
+| Merchant feeds generated | 7 |
 
-| Date | Revenue | Cumulative | Source |
-|------|---------|-----------|--------|
-| 2026-09-04 | $0 | $0 | Project start |
-| | | | |
+---
 
-## What We Have Right Now
+## Top Opportunities
 
-- AISec: schemas, UK regulation tracker, strategy, attack corpus
-- Oracle: live security endpoints, 7 AI bounty programs ($142.5K max)
-- Bounties: 14 platform adapters, approval workflow, finding schema
-- Worker: miner_v5 with 4 process arms, learning loop
-- Sources: 14 cloned repos (ATLAS, garak, PyRIT, Inspect, etc.)
-- AgentVault: credential storage (HackerOne stored)
+| Rank | Product | Market | Score | Margin |
+|:----:|---------|:------:|:-----:|:------:|
+| 1 | Espresso precision bundle | Sweden | 78.9 | 74.1% |
+| 2 | AI Memory Card | Global | 91.8 | 70.4% |
+| 3 | AI Family Annual | Global | 90.8 | 72.6% |
+| 4 | Premium car detailing kit | Denmark | 76.7 | 58.4% |
+| 5 | Premium craft tool kit | UK | 76.5 | 74.1% |
 
-## What We Need Today
+---
 
-1. Run the oracle, get current opportunities
-2. Pick top 3 by EV
-3. Worker runs against first target
-4. First finding produced
-5. First submission
+## The Strategy
+
+1. **Find** — engines scan Google Best Sellers, Keywords, competitors
+2. **Score** — economics engine calculates real margins
+3. **Spec** — product spec sheets for top opportunities
+4. **Feed** — Google Merchant XML for each market
+5. **Test** — £20/day Google Ads on 3 products
+6. **Scale** — profitable products get more budget
+7. **Learn** — experiment tracker records outcomes
+8. **Repeat** — daily scanner runs, new opportunities surface
+
+---
+
+## File Structure
+
+```
+z2m/
+├── README.md                    ← this file
+├── STRATEGY.md                  ← AI-native premium commerce strategy
+├── gameplan.md                  ← Google Ads dropshipping gameplan
+├── TRACKER.md                   ← daily progress tracker
+├── AUTONOMOUS-PIPELINE.md       ← workerkit integration spec
+├── data/
+│   ├── unified_db.py            ← builds unified SQLite database
+│   ├── daily_scanner.py         ← runs all engines daily
+│   ├── generate_specs.py        ← creates product spec sheets
+│   ├── merchant_feeds.py        ← generates Google Merchant XML
+│   ├── pricing_calculator.py    ← full economics calculator
+│   ├── experiment_tracker.py    ← A/B test tracking
+│   ├── opportunities.db         ← unified SQLite database (370 opps)
+│   ├── specs/                   ← product spec sheets
+│   ├── feeds/                   ← Google Merchant XML feeds
+│   └── logs/                    ← daily scan reports
+├── imports/
+│   ├── INVENTORY.md             ← what we imported
+│   ├── LAB-RESULTS.md           ← engine run results
+│   ├── q4ecom-radar-2026/       ← 10-market scanner
+│   ├── gift-arbitrage-engine/   ← personalized gifting
+│   ├── nordic_ecom_scanner/     ← Norway/DK scanner
+│   ├── geocommerce_engine/      ← full backend (20/20 tests)
+│   ├── business_factory/        ← 5 zero-capital kernels
+│   ├── internet_asset_playbook/ ← validated business models
+│   └── ... (13 packages total)
+├── intel/
+│   ├── ecom-strategists.md      ← 10 sharp channels
+│   ├── q4-2026-meta-strategy.md ← full analysis
+│   ├── organic-first-validation.md
+│   ├── q4-playbook.md
+│   └── dropshipping-tools-mcps-github.md
+├── geodrop/
+│   └── geocommerce-thesis.md    ← GeoCommerce OS thesis
+├── selling-to-idiots/
+│   ├── digital-product-opportunities.md
+│   ├── one-click-personalization.md
+│   └── products-for-founders.md
+└── tools/                       ← cloned repos
+    ├── global-ecommerce-intelligence/
+    ├── ecommerce-dtc-skills/
+    └── dropshipping-product-scout/
+```
+
+---
+
+## Next Steps
+
+1. Get Google Ads OAuth credentials
+2. Run Q4 Radar with live data (not demo)
+3. Test top 3 products with real Google Shopping
+4. Build first specialist store
+5. Wire to workerkit learning loop
