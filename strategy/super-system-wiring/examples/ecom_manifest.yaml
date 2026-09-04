@@ -1,0 +1,31 @@
+id: ecom
+name: Ecom Lab
+description: >
+  Evidence-first commerce experimentation. Z2M supplies commerce intelligence,
+  FinalBuilds supplies verified artifacts, and QDW owns worker/pool learning.
+
+capabilities:
+  product_discovery: 1.00
+  personalization: 0.95
+  gifting: 0.90
+  marketplace_etsy: 0.85
+  google_commerce: 0.85
+  pinterest_discovery: 0.80
+  pricing_offer: 0.90
+  visual_merchandising: 0.90
+  geo_localization: 0.80
+  supplier_fulfilment: 0.70
+  retention_email: 0.65
+  commerce_analytics: 0.95
+
+schools:
+  product-discovery:
+    capabilities: [product_discovery, pricing_offer, commerce_analytics]
+  personalization:
+    capabilities: [personalization, gifting, visual_merchandising]
+  marketplaces:
+    capabilities: [marketplace_etsy, google_commerce, pinterest_discovery]
+  geo-commerce:
+    capabilities: [geo_localization, pricing_offer, supplier_fulfilment]
+  lifecycle:
+    capabilities: [retention_email, commerce_analytics]
