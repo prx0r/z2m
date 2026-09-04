@@ -167,3 +167,51 @@ Checked all 14 hypotheses for:
 5. Track first conversions
 6. Update hypothesis confidence scores
 7. Fix missing prediction thresholds in hypotheses.json
+
+## HydraDB Unified Graph — TESTED LIVE
+
+### Connection
+- Bolt: bolt://127.0.0.1:7687
+- Token: private-lab-hydradb-token-2026-secure
+- Database: default
+- Status: ✅ RUNNING (Docker)
+
+### Entities Created
+
+| Label | Count | Source |
+|-------|:-----:|--------|
+| Worker | 3 | security-01, Ecom Worker, Ecom Scout Worker |
+| WorkerVersion | 3 | Linked to workers |
+| Run | 40+ | Mix of won/lost/completed |
+| Studio | 3+ | google-shopping, etc. |
+| Product | 4 | AI Memory Card, Memory Card v2, Espresso Bundle, Nordic Espresso |
+| Site | 2 | etsy-store, finland-store |
+| Idea | 2 | AI personalized memory card, Geographic arbitrage |
+| Hypothesis | 2 | Personalization arbitrage, Voice AI collapses commerce cost |
+| Experiment | 2 | gift-conversion-test, voice-commerce-test |
+
+### Write Pattern
+```python
+# CREATE with edge (only pattern that works)
+client.run_write('CREATE (a:Label {props})-[:EDGE]->(b:Label {props})')
+
+# Read (limited Cypher)
+client.run('MATCH (n:Label) RETURN n.property')
+```
+
+### Limitations
+- HydraDB Cypher is very limited
+- No MERGE, no standalone CREATE, no complex RETURN
+- Only: CREATE with edge, MATCH with property return
+- finalbuilds2 HTTP API gets 403 (permission issue with graph scope)
+
+### What Works
+- ✅ Write: Worker, WorkerVersion, Run, Studio, Product, Site, Idea, Hypothesis, Experiment
+- ✅ Read: Simple MATCH RETURN property
+- ✅ Cross-system: Same graph, same token, all entities visible
+
+### What Doesn't Work Yet
+- ❌ finalbuilds2 HTTP access (403 permission)
+- ❌ Complex Cypher queries (labels(), count(), etc.)
+- ❌ MATCH + CREATE patterns
+- ❌ MERGE operations
