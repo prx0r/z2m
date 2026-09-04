@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Star at Night — Design Lab</title>
+  <link rel="stylesheet" href="styles/tokens.css">
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/components.css">
+  <link rel="stylesheet" href="styles/motion.css">
+  <style>
+    .lab { padding: var(--space-2xl); max-width: 1200px; margin: 0 auto; }
+    .lab-section { margin-bottom: var(--space-3xl); }
+    .lab-title { font-family: var(--font-display); font-size: 2rem; margin-bottom: var(--space-lg); }
+    .lab-subtitle { font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--ink-soft); margin-bottom: var(--space-md); }
+    .lab-row { display: flex; gap: var(--space-lg); flex-wrap: wrap; align-items: flex-start; margin-bottom: var(--space-lg); }
+    .lab-swatch { width: 80px; height: 80px; border-radius: var(--radius-md); }
+    .lab-dark { background: var(--night-950); color: var(--paper); padding: var(--space-xl); border-radius: var(--radius-lg); }
+  </style>
+</head>
+<body style="background: var(--paper);">
+  <div class="lab">
+    <h1 class="lab-title">Design Lab</h1>
+    <p class="lab-subtitle">Star at Night primitives</p>
+
+    <!-- Colors -->
+    <section class="lab-section">
+      <h2 class="lab-title" style="font-size: 1.5rem;">Colours</h2>
+      <div class="lab-row">
+        <div><div class="lab-swatch" style="background: var(--night-950);"></div><p class="lab-subtitle">Night 950</p></div>
+        <div><div class="lab-swatch" style="background: var(--night-900);"></div><p class="lab-subtitle">Night 900</p></div>
+        <div><div class="lab-swatch" style="background: var(--night-800);"></div><p class="lab-subtitle">Night 800</p></div>
+        <div><div class="lab-swatch" style="background: var(--paper);"></div><p class="lab-subtitle">Paper</p></div>
+        <div><div class="lab-swatch" style="background: var(--paper-warm);"></div><p class="lab-subtitle">Paper Warm</p></div>
+        <div><div class="lab-swatch" style="background: var(--paper-deep);"></div><p class="lab-subtitle">Paper Deep</p></div>
+        <div><div class="lab-swatch" style="background: var(--ink);"></div><p class="lab-subtitle">Ink</p></div>
+        <div><div class="lab-swatch" style="background: var(--ink-soft);"></div><p class="lab-subtitle">Ink Soft</p></div>
+        <div><div class="lab-swatch" style="background: var(--star);"></div><p class="lab-subtitle">Star</p></div>
+        <div><div class="lab-swatch" style="background: var(--star-light);"></div><p class="lab-subtitle">Star Light</p></div>
+        <div><div class="lab-swatch" style="background: var(--star-deep);"></div><p class="lab-subtitle">Star Deep</p></div>
+        <div><div class="lab-swatch" style="background: var(--wine);"></div><p class="lab-subtitle">Wine</p></div>
+        <div><div class="lab-swatch" style="background: var(--moss);"></div><p class="lab-subtitle">Moss</p></div>
+      </div>
+    </section>
+
+    <!-- Typography -->
+    <section class="lab-section">
+      <h2 class="lab-title" style="font-size: 1.5rem;">Typography</h2>
+      <div class="lab-row" style="flex-direction: column; gap: var(--space-md);">
+        <div><h1 style="font-size: clamp(3.7rem, 7vw, 7.25rem);">Make something for someone.</h1></div>
+        <div><h2>How it works</h2></div>
+        <div><h3>Tell us about them</h3></div>
+        <div><p>Body text — 16px, line-height 1.55</p></div>
+        <div><p class="metadata">METADATA — 11PX, UPPERCASE</p></div>
+      </div>
+    </section>
+
+    <!-- Buttons -->
+    <section class="lab-section">
+      <h2 class="lab-title" style="font-size: 1.5rem;">Buttons</h2>
+      <div class="lab-row">
+        <button class="btn btn--primary">Make their gift</button>
+        <button class="btn btn--secondary">See what people have made</button>
+        <button class="btn btn--ghost">Continue reading</button>
+        <button class="btn btn--ink">Add to bag</button>
+      </div>
+      <div class="lab-row lab-dark">
+        <button class="btn btn--primary">Make their gift</button>
+        <button class="btn btn--secondary">See what people have made</button>
+        <button class="btn btn--ghost">Continue reading</button>
+      </div>
+    </section>
+
+    <!-- Chips -->
+    <section class="lab-section">
+      <h2 class="lab-title" style="font-size: 1.5rem;">Chips</h2>
+      <div class="chip-group">
+        <button class="chip">Birthday</button>
+        <button class="chip chip--selected">Christmas</button>
+        <button class="chip">Anniversary</button>
+        <button class="chip">New home</button>
+        <button class="chip">Just because</button>
+      </div>
+    </section>
+
+    <!-- Inputs -->
+    <section class="lab-section">
+      <h2 class="lab-title" style="font-size: 1.5rem;">Inputs</h2>
+      <div class="lab-row" style="flex-direction: column; gap: var(--space-lg); max-width: 400px;">
+        <div class="input-group">
+          <label class="input-label" for="test-name">Their name</label>
+          <input type="text" id="test-name" class="input" placeholder="Sophie">
+        </div>
+        <div class="input-group">
+          <label class="input-label" for="test-text">Tell us about them</label>
+          <textarea id="test-text" class="input" placeholder="She has a greyhound called Otis..."></textarea>
+        </div>
+      </div>
+    </section>
+
+    <!-- Cards -->
+    <section class="lab-section">
+      <h2 class="lab-title" style="font-size: 1.5rem;">Product Cards</h2>
+      <div class="grid grid--3">
+        <article class="product-card">
+          <div class="product-card__mockup">
+            <div class="mockup-placeholder">
+              <span class="mockup-placeholder__title">The Sophie Times</span>
+            </div>
+          </div>
+          <div class="product-card__info">
+            <h3 class="product-card__title">The Sophie Times</h3>
+            <p class="product-card__subtitle">A newspaper about a greyhound</p>
+            <div class="product-card__meta">
+              <span class="product-card__price">From £24</span>
+              <span class="product-card__action">Personalise this</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Star -->
+    <section class="lab-section">
+      <h2 class="lab-title" style="font-size: 1.5rem;">Woven Star</h2>
+      <div class="lab-row" style="align-items: center;">
+        <div class="star-container star-container--hero">
+          <img src="assets/woven-star.svg" alt="Woven star" width="180" height="180">
+        </div>
+        <div class="star-container">
+          <img src="assets/woven-star.svg" alt="Woven star" width="120" height="120">
+        </div>
+        <div class="star-container star-container--small">
+          <img src="assets/woven-star.svg" alt="Woven star" width="48" height="48">
+        </div>
+      </div>
+    </section>
+
+    <!-- Quote -->
+    <section class="lab-section">
+      <h2 class="lab-title" style="font-size: 1.5rem;">Quote</h2>
+      <div class="quote">
+        "I uploaded one picture of my dog and it made his entire Christmas collection."
+        <div class="quote__attribution">— Sarah, for her greyhound Otis</div>
+      </div>
+    </section>
+
+    <!-- States -->
+    <section class="lab-section">
+      <h2 class="lab-title" style="font-size: 1.5rem;">States</h2>
+      <div class="lab-row">
+        <div class="loading" style="flex: 1;">
+          <div class="star-container star-container--small">
+            <img src="assets/woven-star.svg" alt="" width="48" height="48">
+          </div>
+          <p class="loading__text">Thinking about Sophie...</p>
+        </div>
+      </div>
+      <div class="toast toast--visible" style="position: relative; transform: none; opacity: 1; margin-top: var(--space-lg);">
+        Photo added
+      </div>
+    </section>
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
