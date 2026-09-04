@@ -55,6 +55,14 @@ Each day gets a log entry:
 - Total paid: 0
 - Cumulative revenue: $0
 
+### Intel Collected
+- Rome Ecom strategy (Google Ads, blue ocean, autopilot scaling)
+- 9 other sharp ecom strategists cataloged
+- Q4 playbook (50 products/day, branded Google store)
+- Organic-first validation method (free listings → paid scaling)
+
 ### Notes
-- Day 0. Machine built. Tomorrow we run it.
+- Day 0. Machine built. Intel collected. Tomorrow we run it.
 - Priority: pick top 3 targets from oracle, worker runs first attack
+- Key insight: free Google listings = organic validation at zero cost
+- Key insight: 50 products/day × 60 days = 3,000 products by November
