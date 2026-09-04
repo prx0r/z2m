@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Your Gift — AI Gifts</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #fafafa; color: #1a1a1a; min-height: 100vh; }
+        .quiz { max-width: 600px; margin: 0 auto; padding: 40px 20px; }
+        .step { display: none; }
+        .step.active { display: block; }
+        h1 { font-size: 2rem; margin-bottom: 8px; }
+        .subtitle { color: #666; margin-bottom: 32px; }
+        label { display: block; font-weight: 600; margin-bottom: 8px; margin-top: 24px; }
+        input, select, textarea { width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 8px; font-size: 1rem; }
+        textarea { height: 100px; resize: vertical; }
+        .btn { display: inline-block; background: #667eea; color: white; padding: 14px 28px; border: none; border-radius: 8px; font-size: 1rem; font-weight: 600; cursor: pointer; margin-top: 24px; }
+        .btn:hover { background: #5a6fd6; }
+        .btn:disabled { background: #ccc; cursor: not-allowed; }
+        .progress { display: flex; gap: 8px; margin-bottom: 32px; }
+        .progress .dot { width: 12px; height: 12px; border-radius: 50%; background: #ddd; }
+        .progress .dot.active { background: #667eea; }
+        .photo-upload { border: 2px dashed #ddd; border-radius: 12px; padding: 40px; text-align: center; cursor: pointer; }
+        .photo-upload:hover { border-color: #667eea; }
+        .preview { display: flex; gap: 12px; margin-top: 16px; flex-wrap: wrap; }
+        .preview img { width: 80px; height: 80px; object-fit: cover; border-radius: 8px; }
+        .concepts { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 24px; }
+        .concept { border: 2px solid #ddd; border-radius: 12px; padding: 16px; cursor: pointer; text-align: center; }
+        .concept.selected { border-color: #667eea; background: #f0f0ff; }
+        .concept img { width: 100%; height: 150px; object-fit: cover; border-radius: 8px; margin-bottom: 12px; background: #eee; }
+    </style>
+</head>
+<body>
+    <div class="quiz">
+        <!-- Step 1: Recipient -->
+        <div class="step active" id="step1">
+            <div class="progress"><div class="dot active"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
+            <h1>Who is this gift for?</h1>
+            <p class="subtitle">Tell us about the person you're gifting to</p>
+            <label>Their name</label>
+            <input type="text" id="recipient_name" placeholder="e.g. Sarah">
+            <label>Your relationship</label>
+            <select id="relationship">
+                <option value="">Select...</option>
+                <option value="sister">Sister</option>
+                <option value="brother">Brother</option>
+                <option value="mum">Mum</option>
+                <option value="dad">Dad</option>
+                <option value="partner">Partner</option>
+                <option value="friend">Friend</option>
+                <option value="colleague">Colleague</option>
+                <option value="other">Other</option>
+            </select>
+            <label>Their personality</label>
+            <select id="personality">
+                <option value="">Select...</option>
+                <option value="funny">Funny / witty</option>
+                <option value="sentimental">Sentimental / thoughtful</option>
+                <option value="premium">Premium / sophisticated</option>
+                <option value="quirky">Quirky / unusual</option>
+                <option value="practical">Practical / no-nonsense</option>
+            </select>
+            <label>Special memory or inside joke (optional)</label>
+            <textarea id="memory" placeholder="e.g. We went to Prague together last summer"></textarea>
+            <button class="btn" onclick="nextStep(2)">Next →</button>
+        </div>
+
+        <!-- Step 2: Occasion -->
+        <div class="step" id="step2">
+            <div class="progress"><div class="dot active"></div><div class="dot active"></div><div class="dot"></div><div class="dot"></div></div>
+            <h1>What's the occasion?</h1>
+            <p class="subtitle">When will they receive this gift?</p>
+            <label>Occasion</label>
+            <select id="occasion">
+                <option value="">Select...</option>
+                <option value="christmas">Christmas</option>
+                <option value="birthday">Birthday</option>
+                <option value="anniversary">Anniversary</option>
+                <option value="just-because">Just because</option>
+                <option value="wedding">Wedding</option>
+                <option value="new-home">New home</option>
+                <option value="other">Other</option>
+            </select>
+            <label>Budget</label>
+            <select id="budget">
+                <option value="15">Under £15</option>
+                <option value="25" selected>£15-30</option>
+                <option value="40">£30-50</option>
+                <option value="60">£50+</option>
+            </select>
+            <button class="btn" onclick="nextStep(1)">← Back</button>
+            <button class="btn" onclick="nextStep(3)" style="margin-left:12px">Next →</button>
+        </div>
+
+        <!-- Step 3: Photo -->
+        <div class="step" id="step3">
+            <div class="progress"><div class="dot active"></div><div class="dot active"></div><div class="dot active"></div><div class="dot"></div></div>
+            <h1>Add a photo (optional)</h1>
+            <p class="subtitle">A photo of them, their pet, or a shared memory</p>
+            <div class="photo-upload" onclick="document.getElementById('photo_input').click()">
+                📷 Click to upload or drag photo here
+            </div>
+            <input type="file" id="photo_input" accept="image/*" multiple style="display:none" onchange="handlePhotos(this)">
+            <div class="preview" id="photo_preview"></div>
+            <button class="btn" onclick="nextStep(2)">← Back</button>
+            <button class="btn" onclick="nextStep(4)" style="margin-left:12px">Next →</button>
+        </div>
+
+        <!-- Step 4: Generate -->
+        <div class="step" id="step4">
+            <div class="progress"><div class="dot active"></div><div class="dot active"></div><div class="dot active"></div><div class="dot active"></div></div>
+            <h1>Your gifts are ready</h1>
+            <p class="subtitle">AI created 4 personalized concepts for your recipient</p>
+            <div class="concepts">
+                <div class="concept" onclick="selectConcept(this, 1)">
+                    <div style="height:150px;background:linear-gradient(135deg,#a18cd1,#fbc2eb);border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:3rem;">🎄</div>
+                    <strong>Medieval Manuscript Ornament</strong>
+                    <p style="color:#666;font-size:0.9rem">Illuminated style with gold accents</p>
+                    <p style="color:#667eea;font-weight:700">£19.99</p>
+                </div>
+                <div class="concept" onclick="selectConcept(this, 2)">
+                    <div style="height:150px;background:linear-gradient(135deg,#ffecd2,#fcb69f);border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:3rem;">📰</div>
+                    <strong>Vintage Newspaper Card</strong>
+                    <p style="color:#666;font-size:0.9rem">Front page with their name as headline</p>
+                    <p style="color:#667eea;font-weight:700">£3.99</p>
+                </div>
+                <div class="concept" onclick="selectConcept(this, 3)">
+                    <div style="height:150px;background:linear-gradient(135deg,#84fab0,#8fd3f4);border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:3rem;">🧩</div>
+                    <strong>Custom Photo Puzzle</strong>
+                    <p style="color:#666;font-size:0.9rem">Their favourite photo as a 500-piece puzzle</p>
+                    <p style="color:#667eea;font-weight:700">£29.99</p>
+                </div>
+                <div class="concept" onclick="selectConcept(this, 4)">
+                    <div style="height:150px;background:linear-gradient(135deg,#ff9a9e,#fecfef);border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:3rem;">📖</div>
+                    <strong>Mini Storybook</strong>
+                    <p style="color:#666;font-size:0.9rem">16-page story of your memories together</p>
+                    <p style="color:#667eea;font-weight:700">£39.99</p>
+                </div>
+            </div>
+            <button class="btn" onclick="nextStep(3)">← Back</button>
+            <button class="btn" id="checkout-btn" onclick="checkout()" style="margin-left:12px" disabled>Checkout →</button>
+        </div>
+    </div>
+
+    <script>
+        let currentStep = 1;
+        let selectedConcept = null;
+
+        function nextStep(step) {
+            document.querySelectorAll('.step').forEach(s => s.classList.remove('active'));
+            document.getElementById('step' + step).classList.add('active');
+            currentStep = step;
+        }
+
+        function handlePhotos(input) {
+            const preview = document.getElementById('photo_preview');
+            preview.innerHTML = '';
+            for (const file of input.files) {
+                const img = document.createElement('img');
+                img.src = URL.createObjectURL(file);
+                preview.appendChild(img);
+            }
+        }
+
+        function selectConcept(el, id) {
+            document.querySelectorAll('.concept').forEach(c => c.classList.remove('selected'));
+            el.classList.add('selected');
+            selectedConcept = id;
+            document.getElementById('checkout-btn').disabled = false;
+        }
+
+        function checkout() {
+            if (!selectedConcept) return;
+            const name = document.getElementById('recipient_name').value;
+            const occasion = document.getElementById('occasion').value;
+            alert('Order placed for ' + name + '!\nConcept: ' + selectedConcept + '\n\nIn production, this would call Prodigi API to print and ship.');
+        }
+    </script>
+</body>
+</html>
