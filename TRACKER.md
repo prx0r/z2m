@@ -70,3 +70,18 @@ Each day gets a log entry:
 - Key shift: visualizable outcome is now the most important variable
 - Creative cost collapsed: $2-5 per product vs $5K-20K traditional
 - Agent commerce is real: 2.5% of John Lewis searches, 11x YoY on Shopify
+
+### Tools Running
+- Q4 Ecom Radar: 370 opportunities across 7 markets
+- Gift Engine: 40 personalized gift products ranked
+- Nordic Scanner: 20 products ranked for NO/DK
+- Unified DB: SQLite with all results
+- Merchant Feeds: 7 markets generated
+- Pricing Calculator: full economics engine
+- Experiment Tracker: 5 A/B tests configured
+
+### Key Validation
+- Etsy data confirms demand: 20k+ results for astrology, 12k for airbnb, 11k for renovation
+- Lowest competition: moving abroad (230 results), golf training (37 results)
+- Highest margin: B2B year-in-review (98%), pet reading (95%), golf training (95%)
+- Sweet spot: $29-49 personalized decision products attached to £5k+ underlying decisions
