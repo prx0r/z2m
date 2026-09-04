@@ -63,3 +63,34 @@ We don't need to manually check each product. The machine:
 7. Kills losers without human intervention
 
 **This is the organic-first approach, automated at scale.**
+
+---
+
+## Jordan's Learning Progression (Aug 2026)
+
+Organic ecom teaches you:
+
+1. **Find products people actually want** — demand validation
+2. **Create content people actually watch** — creative skill
+3. **Write hooks that stop attention** — copywriting
+4. **Turn views into sales** — conversion optimization
+5. **Build an audience** — brand asset
+6. **Create demand** — market creation
+
+Then once you understand that:
+
+- **Affiliate army** — scale through others
+- **Paid ads on top** — accelerate what works
+
+## Why This Maps to Our System
+
+| Skill | Our Automation |
+|-------|---------------|
+| Find products people want | Google Best Sellers + Keyword Planner |
+| Create content | AI-generated product descriptions + images |
+| Write hooks | Localized title compiler |
+| Turn views into sales | Conversion-optimized PDPs |
+| Build an audience | Email/SMS capture from day 1 |
+| Create demand | Free listings + organic Shopping |
+
+The machine learns these skills through data, not intuition.
