@@ -1,0 +1,68 @@
+{
+  "as_of": "2026-09-04",
+  "notes": [
+    "Benchmarks are directional. Sources use different samples, attribution windows and account mixes.",
+    "For low-capital admission, use break-even CPC from your own contribution margin and observed CVR instead of assuming benchmark CPC is affordable."
+  ],
+  "google_search_ecommerce": {
+    "cpc_usd_range": [
+      1.16,
+      1.42
+    ],
+    "cvr_pct_range": [
+      2.8,
+      3.2
+    ],
+    "broad_shopping_collectibles_gifts_search_cpc_usd": 4.14,
+    "strategy": "Use exact/high-intent queries only after organic/free proof. Avoid broad discovery."
+  },
+  "google_shopping": {
+    "cpc_usd_range": [
+      0.66,
+      0.68
+    ],
+    "cvr_pct_range": [
+      1.4,
+      1.91
+    ],
+    "strategy": "Paid validator after feed quality and free-listing proof; SKU-level margin gating."
+  },
+  "google_free_listings": {
+    "media_cost_usd": 0,
+    "surfaces": [
+      "Search",
+      "Maps",
+      "Gemini",
+      "YouTube",
+      "Shopping",
+      "Images",
+      "Lens"
+    ],
+    "strategy": "Default acquisition foundation for physical products."
+  },
+  "pinterest": {
+    "organic_media_cost_usd": 0,
+    "platform_claim_incremental_roas": 3.71,
+    "holiday_visual_search_growth_relative_to_text": "2.3x faster YoY on UK 2026 holiday page",
+    "strategy": "Default discovery surface for visual/giftable products. Create many high-quality variants from one product asset."
+  },
+  "etsy": {
+    "listing_fee_usd": 0.2,
+    "transaction_fee_pct": 6.5,
+    "payment_processing": "varies by country",
+    "offsite_ads_fee_pct": [
+      12,
+      15
+    ],
+    "strategy": "Use marketplace demand for personalized/giftable validation. Price fees into contribution."
+  },
+  "shopify_conversion_benchmarks_pct": {
+    "pet_care": 5.7,
+    "beauty_personal_care": 5.32,
+    "food_beverage": 4.58,
+    "fashion_accessories_apparel": 2.77,
+    "consumer_goods": 1.76,
+    "home_furniture": 1.29,
+    "luxury_jewelry": 0.63
+  }
+}

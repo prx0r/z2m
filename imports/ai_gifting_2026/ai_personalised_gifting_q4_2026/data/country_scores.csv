@@ -1,0 +1,14 @@
+country,market_scale,ecommerce_maturity,fulfillment_fit,holiday_intensity,low_competition,language_ease,heuristic_score_10,note
+United Kingdom,10,9,10,10,7,10,9.25,Launch first
+United States,10,10,9,10,4,10,8.65,Huge; expensive competition
+Australia,8,9,8,9,7,10,8.45,English; localise summer Christmas
+Ireland,7,9,8,9,8,10,8.35,Easy UK-adjacent test
+Netherlands,8,10,8,9,7,7,8.2,Sinterklaas + Christmas
+Norway,8,10,7,9,7,6,7.95,"High spend, small population"
+Sweden,8,10,8,9,6,6,7.9,Strong ecommerce
+Denmark,8,10,8,9,6,6,7.9,Mobile/payment localisation
+Canada,8,9,8,9,6,9,7.95,English/French split; geography
+Germany,10,9,9,9,4,5,7.55,"Large, strong incumbents"
+Spain,9,9,7,9,7,5,7.55,Fast ecommerce growth; Reyes
+France,10,9,8,9,5,5,7.5,Large but localisation-heavy
+Italy,9,8,7,9,7,5,7.35,Family fit; validate

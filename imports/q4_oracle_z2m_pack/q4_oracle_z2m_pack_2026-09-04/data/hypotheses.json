@@ -1,0 +1,128 @@
+[
+  {
+    "id": "H_zero_capital_first",
+    "statement": "When treasury is constrained, opportunities that can be validated with zero media spend and minimal irreversible spend should outrank higher-upside but capital-intensive tests.",
+    "metrics": [
+      "profit_per_dollar_at_risk",
+      "time_to_first_dollar",
+      "validation_cost",
+      "success_rate"
+    ],
+    "falsifier": "Zero-capital lane repeatedly produces lower risk-adjusted return than small paid tests after comparable sample sizes."
+  },
+  {
+    "id": "H_free_distribution_before_ads",
+    "statement": "For giftable/specialist commerce, Google free listings, marketplace search, Pinterest organic and long-tail SEO can generate enough signal to select winners before paid acquisition.",
+    "metrics": [
+      "organic_product_impressions",
+      "organic_clicks",
+      "wishlist_rate",
+      "marketplace_conversion",
+      "paid_test_hit_rate"
+    ],
+    "falsifier": "Products with strong free/organic signal do not outperform randomly selected products in subsequent paid tests."
+  },
+  {
+    "id": "H_personalization_margin",
+    "statement": "Personalization increases willingness to pay and reduces direct price comparability enough to support healthier contribution margins than generic commodity resale.",
+    "metrics": [
+      "aov",
+      "gross_margin",
+      "conversion_rate",
+      "refund_rate",
+      "price_elasticity"
+    ],
+    "falsifier": "Personalized variants fail to improve contribution after added production/support costs."
+  },
+  {
+    "id": "H_ai_quality_not_ai_sludge",
+    "statement": "AI is defensible when it creates bespoke output, compatibility, curation, visualization or service quality that would be costly manually; generic AI copy/design is not a moat.",
+    "metrics": [
+      "repeat_rate",
+      "conversion_lift_vs_template",
+      "support_rate",
+      "manual_minutes_saved",
+      "customer_rating"
+    ],
+    "falsifier": "Bespoke AI variants do not beat high-quality static templates."
+  },
+  {
+    "id": "H_visual_search_compounding",
+    "statement": "Products with large visual-variant surfaces benefit disproportionately from Pinterest/Images/Lens because AI can cheaply produce high-quality contextual creative variations.",
+    "metrics": [
+      "pin_save_rate",
+      "outbound_ctr",
+      "image_search_clicks",
+      "creative_winner_rate"
+    ],
+    "falsifier": "Creative volume fails to produce incremental organic impressions or winners after quality controls."
+  },
+  {
+    "id": "H_marketplace_then_brand",
+    "statement": "Marketplace-native demand (Etsy/eBay/Amazon Handmade) is a cheaper validation surface than launching an unknown standalone store; proven offers should graduate to owned specialist sites.",
+    "metrics": [
+      "marketplace_cac_equivalent",
+      "marketplace_conversion",
+      "owned_site_conversion",
+      "repeat_customer_share"
+    ],
+    "falsifier": "Owned-site validation costs less or converts better from cold start across repeated launches."
+  },
+  {
+    "id": "H_intent_over_interruption",
+    "statement": "High-intent search/discovery surfaces outperform interruption ads for low-capital specialist commerce.",
+    "metrics": [
+      "cac",
+      "roas",
+      "conversion_rate",
+      "time_to_payback"
+    ],
+    "falsifier": "Cold social acquisition consistently beats search/marketplace/free discovery on contribution after creative costs."
+  },
+  {
+    "id": "H_specialist_trust",
+    "statement": "Narrow expert storefronts with useful decision tools convert better than generic multi-category stores.",
+    "metrics": [
+      "conversion_rate",
+      "return_rate",
+      "engagement_with_adviser",
+      "organic_rank",
+      "repeat_rate"
+    ],
+    "falsifier": "Generic control stores perform equally or better under matched traffic/offer conditions."
+  },
+  {
+    "id": "H_geo_native_arbitrage",
+    "statement": "Localized specialist execution in affluent smaller markets can offer better competition-adjusted economics than English-first global competition.",
+    "metrics": [
+      "cpc",
+      "organic_rank_time",
+      "conversion_rate",
+      "margin",
+      "competitor_density"
+    ],
+    "falsifier": "Localization costs and smaller demand erase the competition advantage."
+  },
+  {
+    "id": "H_giftability_q4_multiplier",
+    "statement": "Giftability materially raises Q4 conversion and AOV for products that can be recipient-framed, bundled or personalized.",
+    "metrics": [
+      "q4_vs_baseline_conversion",
+      "gift_wrap_attach_rate",
+      "aov",
+      "organic_search_growth"
+    ],
+    "falsifier": "Gift framing does not produce seasonal lift versus matched evergreen messaging."
+  },
+  {
+    "id": "H_asset_exhaust",
+    "statement": "Experiments can remain positive-EV when failed offers generate reusable code, creative, data, SEO pages or market intelligence.",
+    "metrics": [
+      "reused_components",
+      "downstream_revenue",
+      "dataset_reuse",
+      "build_time_saved"
+    ],
+    "falsifier": "Experiment exhaust is rarely reused or has negligible downstream value."
+  }
+]

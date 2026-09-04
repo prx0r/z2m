@@ -1,0 +1,780 @@
+[
+  {
+    "id": "q4_gift_finder",
+    "name": "AI niche gift-finder sites by recipient + affiliate/POD fulfillment",
+    "class": "affiliate_specialist_site",
+    "evidence": [
+      "pinterest_holiday_2026",
+      "google_holiday_demand_gen_2026"
+    ],
+    "scores": {
+      "capital_efficiency": 10,
+      "q4_fit": 10,
+      "organic_distribution": 9,
+      "ai_quality_moat": 10,
+      "margin_potential": 8,
+      "operational_simplicity": 10,
+      "competition_whitespace_hypothesis": 9
+    },
+    "capital_band": "$0-10",
+    "channels": [
+      "SEO",
+      "Pinterest organic",
+      "YouTube Shorts",
+      "affiliate"
+    ],
+    "offer": "Sites like 'Gifts for Home Baristas' or 'Gifts for New Dog Owners' with structured comparison and one-click personalization.",
+    "ai_moat": "Live price/availability, recipient quiz, deterministic comparison, localized gift deadlines.",
+    "validation_plan": "Build one vertical with 30 products and free/affiliate monetization; track outbound conversion before building more.",
+    "caveat": "Generic gift-guide SEO is saturated; the moat is narrow vertical expertise + live data + tools.",
+    "model_score_100": 94.6,
+    "rank": 1
+  },
+  {
+    "id": "q4_custom_card_game",
+    "name": "Custom family / couple card game generated from memories",
+    "class": "personalized_pod",
+    "evidence": [
+      "etsy_q2_2026"
+    ],
+    "scores": {
+      "capital_efficiency": 9,
+      "q4_fit": 10,
+      "organic_distribution": 9,
+      "ai_quality_moat": 10,
+      "margin_potential": 9,
+      "operational_simplicity": 8,
+      "competition_whitespace_hypothesis": 9
+    },
+    "capital_band": "$0-10",
+    "channels": [
+      "Etsy",
+      "Pinterest organic",
+      "gift SEO",
+      "creator seeding"
+    ],
+    "offer": "Answer 10 prompts \u2192 personalized deck of trivia, memories, challenges and conversation cards.",
+    "ai_moat": "AI creates structured, non-repetitive cards, art direction, print files, and preview video.",
+    "validation_plan": "Sell printable version first; measure paid conversion and refund rate; add print-on-demand after proof.",
+    "caveat": "Avoid copyrighted franchises and unsafe/private content handling.",
+    "model_score_100": 91.9,
+    "rank": 2
+  },
+  {
+    "id": "q4_heirloom_cookbook",
+    "name": "AI-assisted family recipe heirloom cookbook",
+    "class": "personalized_pod",
+    "evidence": [
+      "etsy_q2_2026",
+      "pinterest_holiday_2026"
+    ],
+    "scores": {
+      "capital_efficiency": 9,
+      "q4_fit": 10,
+      "organic_distribution": 9,
+      "ai_quality_moat": 10,
+      "margin_potential": 9,
+      "operational_simplicity": 8,
+      "competition_whitespace_hypothesis": 9
+    },
+    "capital_band": "$0-10",
+    "channels": [
+      "Etsy",
+      "Pinterest organic",
+      "gift SEO"
+    ],
+    "offer": "Upload scans/photos/voice notes \u2192 clean family cookbook with stories, photos and print-ready layout.",
+    "ai_moat": "OCR/cleanup, recipe normalization, family-history narrative, layout, cover concepts, multilingual editions.",
+    "validation_plan": "Offer free sample spread; charge for full digital; print only after purchase.",
+    "caveat": "Must clearly distinguish transcription from invented recipe facts; user approves content.",
+    "model_score_100": 91.9,
+    "rank": 3
+  },
+  {
+    "id": "q4_gallery_sets",
+    "name": "Personalized gallery wall print collections",
+    "class": "digital_or_pod",
+    "evidence": [
+      "etsy_spring_summer_2026"
+    ],
+    "scores": {
+      "capital_efficiency": 9,
+      "q4_fit": 9,
+      "organic_distribution": 10,
+      "ai_quality_moat": 9,
+      "margin_potential": 10,
+      "operational_simplicity": 10,
+      "competition_whitespace_hypothesis": 7
+    },
+    "capital_band": "$0-10",
+    "channels": [
+      "Etsy",
+      "Pinterest organic",
+      "Google Images"
+    ],
+    "offer": "Buyer chooses room/photo/colors \u2192 coordinated 3/5/7-print set with exact wall mockup.",
+    "ai_moat": "AI creates cohesive set and room-specific visualization instead of one generic print.",
+    "validation_plan": "Sell downloadable set first; generate 50 Pinterest room/recipient variants.",
+    "caveat": "Generic wall art is saturated; only personalized/systematic room-specific sets are attractive.",
+    "model_score_100": 91.9,
+    "rank": 4
+  },
+  {
+    "id": "q4_personalized_advent",
+    "name": "Personalized digital/POD Advent challenge for couples/families",
+    "class": "digital_or_pod",
+    "evidence": [
+      "etsy_q2_2026",
+      "pinterest_holiday_2026"
+    ],
+    "scores": {
+      "capital_efficiency": 9,
+      "q4_fit": 10,
+      "organic_distribution": 9,
+      "ai_quality_moat": 9,
+      "margin_potential": 10,
+      "operational_simplicity": 9,
+      "competition_whitespace_hypothesis": 8
+    },
+    "capital_band": "$0-10",
+    "channels": [
+      "Etsy",
+      "Pinterest organic",
+      "gift SEO"
+    ],
+    "offer": "24 personalized prompts/challenges/memories delivered as printable cards, calendar or mini-book.",
+    "ai_moat": "Dynamic activity generation using budget/location/relationship constraints.",
+    "validation_plan": "Digital only first; publish by September/October; use Pinterest save rate and Etsy conversion.",
+    "caveat": "Hard seasonal cutoff; stop acquisition early enough to avoid delivery/support issues.",
+    "model_score_100": 91.7,
+    "rank": 5
+  },
+  {
+    "id": "q4_gothic_stationery",
+    "name": "Vamp Romantic / gothic personalized holiday & wedding stationery",
+    "class": "digital_or_pod",
+    "evidence": [
+      "pinterest_predicts_2026",
+      "etsy_spring_summer_2026"
+    ],
+    "scores": {
+      "capital_efficiency": 9,
+      "q4_fit": 8,
+      "organic_distribution": 10,
+      "ai_quality_moat": 9,
+      "margin_potential": 10,
+      "operational_simplicity": 10,
+      "competition_whitespace_hypothesis": 8
+    },
+    "capital_band": "$0-10",
+    "channels": [
+      "Etsy",
+      "Pinterest organic",
+      "SEO"
+    ],
+    "offer": "Dark-romance cards, invitations, menus and keepsake prints personalized per event.",
+    "ai_moat": "AI-assisted art direction + fast bespoke typography/layout variants.",
+    "validation_plan": "Launch digital templates and custom-service upsell; use exact aesthetic long-tail keywords.",
+    "caveat": "Avoid copying living artists or copyrighted IP; maintain distinctive art direction.",
+    "model_score_100": 91.6,
+    "rank": 6
+  },
+  {
+    "id": "q4_custom_cards_b2b",
+    "name": "Small-business personalized holiday cards with auto-generated client variants",
+    "class": "b2b_digital_or_pod",
+    "evidence": [
+      "etsy_q2_2026",
+      "pinterest_holiday_2026"
+    ],
+    "scores": {
+      "capital_efficiency": 9,
+      "q4_fit": 10,
+      "organic_distribution": 7,
+      "ai_quality_moat": 10,
+      "margin_potential": 10,
+      "operational_simplicity": 9,
+      "competition_whitespace_hypothesis": 9
+    },
+    "capital_band": "$0-10",
+    "channels": [
+      "SEO",
+      "direct outreach",
+      "Etsy",
+      "local business directories"
+    ],
+    "offer": "Business uploads logo/client list \u2192 tasteful segmented holiday cards and print-ready files.",
+    "ai_moat": "Batch personalization, brand-consistent design, multilingual copy, customer-specific variants.",
+    "validation_plan": "Sell digital proof to local service businesses; no ad spend; print optional.",
+    "caveat": "Need robust data/privacy handling for customer lists.",
+    "model_score_100": 91.0,
+    "rank": 7
+  },
+  {
+    "id": "q4_family_annual",
+    "name": "AI-personalized family annual / year-in-review book",
+    "class": "personalized_pod",
+    "evidence": [
+      "etsy_spring_summer_2026",
+      "etsy_q2_2026"
+    ],
+    "scores": {
+      "capital_efficiency": 9,
+      "q4_fit": 10,
+      "organic_distribution": 9,
+      "ai_quality_moat": 10,
+      "margin_potential": 9,
+      "operational_simplicity": 8,
+      "competition_whitespace_hypothesis": 8
+    },
+    "capital_band": "$0-10",
+    "channels": [
+      "Etsy",
+      "Pinterest organic",
+      "Google free listings",
+      "gift SEO"
+    ],
+    "offer": "Upload photos/notes/messages \u2192 one-click polished annual book + digital preview; optional print fulfillment.",
+    "ai_moat": "Automated curation, layout, captions, family-specific narrative, localization, gift-recipient variants.",
+    "validation_plan": "Launch digital preview first; 10 Etsy listings by recipient/occasion; 30 Pinterest pins; collect wishlists/preorders before print spend.",
+    "caveat": "Demand is adjacent (memory journals/personalization), not a verified exact-product market.",
+    "model_score_100": 90.8,
+    "rank": 8
+  },
+  {
+    "id": "q4_memory_journal",
+    "name": "Personalized memory journal / 'year together' gift",
+    "class": "personalized_pod",
+    "evidence": [
+      "etsy_spring_summer_2026"
+    ],
+    "scores": {
+      "capital_efficiency": 9,
+      "q4_fit": 10,
+      "organic_distribution": 9,
+      "ai_quality_moat": 9,
+      "margin_potential": 9,
+      "operational_simplicity": 9,
+      "competition_whitespace_hypothesis": 8
+    },
+    "capital_band": "$0-10",
+    "channels": [
+      "Etsy",
+      "Pinterest organic",
+      "Google free listings"
+    ],
+    "offer": "Recipient-specific prompts, dates, places and photos turned into a premium memory journal.",
+    "ai_moat": "AI generates prompts and layout from relationship type/occasion without generic template feel.",
+    "validation_plan": "Test 5 recipient niches and 3 price points as digital/POD; target long-tail gift queries.",
+    "caveat": "Exact Etsy competition must be measured with Marketplace Insights before scale.",
+    "model_score_100": 90.3,
+    "rank": 9
+  },
+  {
+    "id": "q4_grandparent_book",
+    "name": "Grandparent interview / memory book personalized to family",
+    "class": "personalized_pod",
+    "evidence": [
+      "etsy_spring_summer_2026"
+    ],
+    "scores": {
+      "capital_efficiency": 9,
+      "q4_fit": 10,
+      "organic_distribution": 9,
+      "ai_quality_moat": 9,
+      "margin_potential": 9,
+      "operational_simplicity": 9,
+      "competition_whitespace_hypothesis": 8
+    },
+    "capital_band": "$0-10",
+    "channels": [
+      "Etsy",
+      "Pinterest organic",
+      "gift SEO"
+    ],
+    "offer": "Recipient-specific life-story prompts + optional voice-note transcription into a book.",
+    "ai_moat": "Adaptive interview prompts and polished story assembly from audio/text.",
+    "validation_plan": "Launch digital-first with recipient variants: grandma/grandad/parents/new baby legacy.",
+    "caveat": "Privacy-sensitive family data requires clear handling and deletion policy.",
+    "model_score_100": 90.3,
+    "rank": 10
+  },
+  {
+    "id": "q4_stained_glass",
+    "name": "Stained-glass-style personalized signs/cards (printed, not actual glass)",
+    "class": "digital_or_pod",
+    "evidence": [
+      "etsy_spring_summer_2026"
+    ],
+    "scores": {
+      "capital_efficiency": 9,
+      "q4_fit": 8,
+      "organic_distribution": 9,
+      "ai_quality_moat": 9,
+      "margin_potential": 10,
+      "operational_simplicity": 10,
+      "competition_whitespace_hypothesis": 8
+    },
+    "capital_band": "$0-10",
+    "channels": [
+      "Etsy",
+      "Pinterest organic",
+      "SEO"
+    ],
+    "offer": "Printed acrylic/paper or downloadable stained-glass-inspired personalized art.",
+    "ai_moat": "AI turns venue/pet/home into a coherent stained-glass-inspired motif.",
+    "validation_plan": "Sell digital/print first; don't manufacture glass until validated.",
+    "caveat": "Use original visual style; do not imitate identifiable artists.",
+    "model_score_100": 89.9,
+    "rank": 11
+  },
+  {
+    "id": "q4_hobby_starter",
+    "name": "AI-personalized hobby starter guides + kits (needlepoint/crochet/journaling)",
+    "class": "digital_then_physical",
+    "evidence": [
+      "etsy_spring_summer_2026"
+    ],
+    "scores": {
+      "capital_efficiency": 9,
+      "q4_fit": 10,
+      "organic_distribution": 9,
+      "ai_quality_moat": 9,
+      "margin_potential": 9,
+      "operational_simplicity": 8,
+      "competition_whitespace_hypothesis": 8
+    },
+    "capital_band": "$0-10",
+    "channels": [
+      "Etsy",
+      "Pinterest organic",
+      "SEO",
+      "YouTube organic"
+    ],
+    "offer": "Recipient quiz \u2192 hobby starter plan + printable guide; optional curated kit upsell.",
+    "ai_moat": "Adaptive onboarding, pattern generation, troubleshooting and progress plan.",
+    "validation_plan": "Start all-digital; add physical kits only where attach rate proves demand.",
+    "caveat": "Instruction quality must be verified by domain examples; avoid low-quality AI sludge.",
+    "model_score_100": 89.2,
+    "rank": 12
+  },
+  {
+    "id": "q4_travel_journal",
+    "name": "Personalized travel / adventure journal + map gift",
+    "class": "personalized_pod",
+    "evidence": [
+      "etsy_spring_summer_2026",
+      "pinterest_predicts_2026"
+    ],
+    "scores": {
+      "capital_efficiency": 9,
+      "q4_fit": 9,
+      "organic_distribution": 9,
+      "ai_quality_moat": 9,
+      "margin_potential": 9,
+      "operational_simplicity": 9,
+      "competition_whitespace_hypothesis": 8
+    },
+    "capital_band": "$0-10",
+    "channels": [
+      "Etsy",
+      "Pinterest organic",
+      "travel SEO"
+    ],
+    "offer": "Destination/date/person-specific journal with itinerary memory pages and map art.",
+    "ai_moat": "Generate tailored prompts, maps/visual themes and multilingual versions.",
+    "validation_plan": "Digital-first; create city/couple/family variants from one generator.",
+    "caveat": "Map data/licensing must be handled correctly if using third-party map sources.",
+    "model_score_100": 88.9,
+    "rank": 13
+  },
+  {
+    "id": "q4_home_cinema_affiliate",
+    "name": "Home cinema expert: projector comparison + affiliate/lead-gen before retail",
+    "class": "affiliate_specialist_site",
+    "evidence": [
+      "google_holiday100_2025",
+      "google_free_listings_2026"
+    ],
+    "scores": {
+      "capital_efficiency": 10,
+      "q4_fit": 9,
+      "organic_distribution": 8,
+      "ai_quality_moat": 9,
+      "margin_potential": 8,
+      "operational_simplicity": 10,
+      "competition_whitespace_hypothesis": 8
+    },
+    "capital_band": "$0-10",
+    "channels": [
+      "SEO",
+      "YouTube organic",
+      "Pinterest",
+      "affiliate"
+    ],
+    "offer": "High-trust comparison/advisor site for projectors/screens/accessories; monetize affiliate first, retail later.",
+    "ai_moat": "Automated spec normalization, compatibility checks, room-size adviser, multilingual local pages, AI demo visuals.",
+    "validation_plan": "Build free comparison content and affiliate links; only move to owned inventory/dropship on proven clicks/sales.",
+    "caveat": "2025 Google signal is historical; revalidate 2026 search trend before commerce launch.",
+    "model_score_100": 88.8,
+    "rank": 14
+  },
+  {
+    "id": "q4_wildflower_signs",
+    "name": "Wildflower / botanical personalized event signs and keepsakes",
+    "class": "digital_or_pod",
+    "evidence": [
+      "etsy_spring_summer_2026"
+    ],
+    "scores": {
+      "capital_efficiency": 9,
+      "q4_fit": 7,
+      "organic_distribution": 9,
+      "ai_quality_moat": 9,
+      "margin_potential": 10,
+      "operational_simplicity": 10,
+      "competition_whitespace_hypothesis": 8
+    },
+    "capital_band": "$0-10",
+    "channels": [
+      "Etsy",
+      "Pinterest organic",
+      "SEO"
+    ],
+    "offer": "Editable and bespoke signs that convert after event into keepsake print.",
+    "ai_moat": "Upload venue/bouquet photo \u2192 coordinated botanical visual system.",
+    "validation_plan": "Digital-first; target weddings, anniversaries, memorials, holiday hosting variants.",
+    "caveat": "Spring/wedding signal is strong but Q4 fit is lower; keep as evergreen lane.",
+    "model_score_100": 88.4,
+    "rank": 15
+  },
+  {
+    "id": "q4_personalized_pet",
+    "name": "Personalized pet gift line: bowl, travel tag, memory ornament, story card",
+    "class": "personalized_pod",
+    "evidence": [
+      "etsy_spring_summer_2026",
+      "shopify_conversion_2026"
+    ],
+    "scores": {
+      "capital_efficiency": 8,
+      "q4_fit": 10,
+      "organic_distribution": 9,
+      "ai_quality_moat": 9,
+      "margin_potential": 9,
+      "operational_simplicity": 8,
+      "competition_whitespace_hypothesis": 7
+    },
+    "capital_band": "$10-50",
+    "channels": [
+      "Etsy",
+      "Pinterest organic",
+      "Google free listings",
+      "pet SEO"
+    ],
+    "offer": "Photo/name/breed-driven gifts; bundle physical item with premium digital keepsake.",
+    "ai_moat": "Image cleanup, breed/style adaptation, personalized story/card, 360 mockups and video.",
+    "validation_plan": "Validate digital memorial card/ornament designs before sourcing; split celebratory vs memorial messaging.",
+    "caveat": "Pet category converts well generally, but personalized pet gifts are competitive; long-tail recipient/occasion niches matter.",
+    "model_score_100": 86.3,
+    "rank": 16
+  },
+  {
+    "id": "q4_penpal_kit",
+    "name": "Personalized pen-pal / letter-writing gift kit",
+    "class": "personalized_pod",
+    "evidence": [
+      "pinterest_predicts_2026",
+      "etsy_spring_summer_2026"
+    ],
+    "scores": {
+      "capital_efficiency": 8,
+      "q4_fit": 9,
+      "organic_distribution": 10,
+      "ai_quality_moat": 8,
+      "margin_potential": 8,
+      "operational_simplicity": 8,
+      "competition_whitespace_hypothesis": 8
+    },
+    "capital_band": "$10-50",
+    "channels": [
+      "Pinterest organic",
+      "Etsy",
+      "Google Images/Lens"
+    ],
+    "offer": "Custom stationery, envelope seals, prompt cards and optional recipient name theme.",
+    "ai_moat": "Generate coordinated visual system and personalized writing prompts; visual-demo content at near-zero marginal cost.",
+    "validation_plan": "Publish trend-native pin clusters + Etsy listings; validate saves/outbound clicks before paid spend.",
+    "caveat": "Pinterest trend interest does not equal purchase intent; use outbound-click and conversion evidence.",
+    "model_score_100": 84.8,
+    "rank": 17
+  },
+  {
+    "id": "q4_needlepoint",
+    "name": "Beginner needlepoint gift kit with AI-personalized pattern",
+    "class": "physical_lightweight",
+    "evidence": [
+      "etsy_spring_summer_2026"
+    ],
+    "scores": {
+      "capital_efficiency": 7,
+      "q4_fit": 9,
+      "organic_distribution": 9,
+      "ai_quality_moat": 9,
+      "margin_potential": 8,
+      "operational_simplicity": 7,
+      "competition_whitespace_hypothesis": 8
+    },
+    "capital_band": "$10-50",
+    "channels": [
+      "Etsy",
+      "Pinterest organic",
+      "Google free listings"
+    ],
+    "offer": "Beginner-friendly kit where buyer uploads pet/home/photo and receives simplified custom pattern + materials.",
+    "ai_moat": "Image-to-stitch-pattern generation + instruction personalization + demo videos.",
+    "validation_plan": "Start pattern-only digital version, then bundle physical materials only after demand.",
+    "caveat": "Physical kit sourcing/quality must be validated; custom patterns need QA.",
+    "model_score_100": 81.8,
+    "rank": 18
+  },
+  {
+    "id": "q4_journal_charms",
+    "name": "Personalized journal charm + accessory gift sets",
+    "class": "physical_lightweight",
+    "evidence": [
+      "etsy_spring_summer_2026"
+    ],
+    "scores": {
+      "capital_efficiency": 7,
+      "q4_fit": 10,
+      "organic_distribution": 9,
+      "ai_quality_moat": 7,
+      "margin_potential": 8,
+      "operational_simplicity": 8,
+      "competition_whitespace_hypothesis": 7
+    },
+    "capital_band": "$10-50",
+    "channels": [
+      "Etsy",
+      "Pinterest organic",
+      "Google Images/Lens"
+    ],
+    "offer": "Curated charm sets by recipient, hobby, zodiac/aesthetic, with custom initial/date.",
+    "ai_moat": "AI creates aesthetic bundles, mockups, gift-recipient targeting and cross-sell combinations.",
+    "validation_plan": "Start 20 micro-niche listings; use Etsy search impressions and Pinterest saves to select inventory.",
+    "caveat": "Charm sourcing can become commodity-like; moat must be curation/personalization/brand.",
+    "model_score_100": 80.1,
+    "rank": 19
+  },
+  {
+    "id": "q4_brooch_bundle",
+    "name": "Curated brooch gift bundles / personalized brooch story cards",
+    "class": "physical_lightweight",
+    "evidence": [
+      "pinterest_predicts_2026"
+    ],
+    "scores": {
+      "capital_efficiency": 7,
+      "q4_fit": 8,
+      "organic_distribution": 10,
+      "ai_quality_moat": 7,
+      "margin_potential": 8,
+      "operational_simplicity": 9,
+      "competition_whitespace_hypothesis": 7
+    },
+    "capital_band": "$10-50",
+    "channels": [
+      "Pinterest organic",
+      "Etsy",
+      "Google Images/Lens"
+    ],
+    "offer": "Small themed brooch sets presented as a gift story: hobby, place, pet, profession, aesthetic.",
+    "ai_moat": "AI curation, styling, visual combinations and recipient-specific gift copy.",
+    "validation_plan": "Use Pinterest saves/clicks to pick bundle themes before inventory.",
+    "caveat": "Pinterest Brooched trend is a trend signal, not verified transaction demand.",
+    "model_score_100": 80.0,
+    "rank": 20
+  },
+  {
+    "id": "q4_home_barista",
+    "name": "Home barista specialist: accessories and bundle adviser",
+    "class": "specialist_commerce",
+    "evidence": [
+      "google_free_listings_2026",
+      "shopify_conversion_2026"
+    ],
+    "scores": {
+      "capital_efficiency": 7,
+      "q4_fit": 9,
+      "organic_distribution": 8,
+      "ai_quality_moat": 8,
+      "margin_potential": 8,
+      "operational_simplicity": 8,
+      "competition_whitespace_hypothesis": 8
+    },
+    "capital_band": "$10-50",
+    "channels": [
+      "Google free listings",
+      "SEO",
+      "Pinterest",
+      "YouTube organic"
+    ],
+    "offer": "Intent-led barista accessory store with compatibility adviser and bundles.",
+    "ai_moat": "Machine-readable compatibility matrix, personalized setup recommendations, 360/demo content.",
+    "validation_plan": "Start affiliate/content + free listings; paid Shopping only if break-even CPC clears.",
+    "caveat": "Exact current demand/competition must be validated with Keyword Planner/Trends.",
+    "model_score_100": 79.7,
+    "rank": 21
+  },
+  {
+    "id": "q4_whimsical_case",
+    "name": "Whimsical/polka-dot personalized phone cases",
+    "class": "print_on_demand",
+    "evidence": [
+      "etsy_spring_summer_2026"
+    ],
+    "scores": {
+      "capital_efficiency": 8,
+      "q4_fit": 9,
+      "organic_distribution": 9,
+      "ai_quality_moat": 8,
+      "margin_potential": 7,
+      "operational_simplicity": 9,
+      "competition_whitespace_hypothesis": 5
+    },
+    "capital_band": "$10-50",
+    "channels": [
+      "Etsy",
+      "Pinterest organic",
+      "Google free listings"
+    ],
+    "offer": "Trend-led visual case with personalization and coordinated wallpaper/download.",
+    "ai_moat": "Rapid aesthetic variant generation and device-specific mockups.",
+    "validation_plan": "Test digital wallpapers and case mockups; only admit variants with organic engagement.",
+    "caveat": "Phone cases are highly competitive; trend lift alone is insufficient.",
+    "model_score_100": 79.6,
+    "rank": 22
+  },
+  {
+    "id": "q4_dog_travel",
+    "name": "Dog travel expert: carriers, seat covers, tags and comfort bundles",
+    "class": "specialist_commerce",
+    "evidence": [
+      "shopify_conversion_2026",
+      "google_free_listings_2026"
+    ],
+    "scores": {
+      "capital_efficiency": 7,
+      "q4_fit": 9,
+      "organic_distribution": 8,
+      "ai_quality_moat": 8,
+      "margin_potential": 8,
+      "operational_simplicity": 7,
+      "competition_whitespace_hypothesis": 8
+    },
+    "capital_band": "$10-50",
+    "channels": [
+      "Google free listings",
+      "SEO",
+      "Pinterest",
+      "pet communities"
+    ],
+    "offer": "Breed/vehicle/trip-specific product adviser and gift bundles.",
+    "ai_moat": "Compatibility engine + personalized fitting + visual demos + localized safety/fit content.",
+    "validation_plan": "Start content/affiliate + one POD personalized accessory; retail winners later.",
+    "caveat": "Physical safety claims must be evidence-based; don't overclaim restraint/crash protection.",
+    "model_score_100": 78.6,
+    "rank": 23
+  },
+  {
+    "id": "q4_little_treat",
+    "name": "Personalized 'just because' mini gift kits",
+    "class": "physical_lightweight",
+    "evidence": [
+      "etsy_spring_summer_2026"
+    ],
+    "scores": {
+      "capital_efficiency": 7,
+      "q4_fit": 9,
+      "organic_distribution": 9,
+      "ai_quality_moat": 8,
+      "margin_potential": 7,
+      "operational_simplicity": 6,
+      "competition_whitespace_hypothesis": 7
+    },
+    "capital_band": "$10-50",
+    "channels": [
+      "Etsy",
+      "Pinterest organic",
+      "creator seeding"
+    ],
+    "offer": "Small gift-ready bundles under a psychologically easy price point, personalized to recipient/mood.",
+    "ai_moat": "AI recipient quiz chooses bundle, message and presentation.",
+    "validation_plan": "Validate message/card-only digital version and bundle wishlists before stock.",
+    "caveat": "Low AOV can make paid ads uneconomic; must rely on marketplace/organic and upsells.",
+    "model_score_100": 76.7,
+    "rank": 24
+  },
+  {
+    "id": "q4_vintage_barware",
+    "name": "Vintage barware curation and gifting marketplace/affiliate",
+    "class": "curated_marketplace",
+    "evidence": [
+      "etsy_spring_summer_2026",
+      "etsy_q2_2026"
+    ],
+    "scores": {
+      "capital_efficiency": 6,
+      "q4_fit": 9,
+      "organic_distribution": 9,
+      "ai_quality_moat": 8,
+      "margin_potential": 8,
+      "operational_simplicity": 5,
+      "competition_whitespace_hypothesis": 8
+    },
+    "capital_band": "$50-150",
+    "channels": [
+      "Etsy",
+      "eBay",
+      "Pinterest organic",
+      "SEO"
+    ],
+    "offer": "Curated giftable vintage barware sets by era/style/recipient.",
+    "ai_moat": "AI visual classification, era/style metadata, pairing/gift guides, price normalization.",
+    "validation_plan": "Start affiliate/consignment or low-stock curation; avoid buying inventory until sell-through evidence.",
+    "caveat": "Authenticity, breakage and shipping can erase margin.",
+    "model_score_100": 76.2,
+    "rank": 25
+  },
+  {
+    "id": "q4_mahjong",
+    "name": "Mahjong gift accessories: racks, scorecards, custom cases",
+    "class": "physical_lightweight",
+    "evidence": [
+      "etsy_spring_summer_2026",
+      "etsy_q2_2026"
+    ],
+    "scores": {
+      "capital_efficiency": 7,
+      "q4_fit": 9,
+      "organic_distribution": 8,
+      "ai_quality_moat": 7,
+      "margin_potential": 8,
+      "operational_simplicity": 7,
+      "competition_whitespace_hypothesis": 7
+    },
+    "capital_band": "$10-50",
+    "channels": [
+      "Etsy",
+      "Pinterest organic",
+      "Google free listings"
+    ],
+    "offer": "Giftable Mahjong accessory bundles rather than competing on full tile sets.",
+    "ai_moat": "AI-generated personalized scorecards, case monograms, gift guides and tutorial content.",
+    "validation_plan": "Test digital scorecards + personalized accessory listing first; source racks/cases only for winning variants.",
+    "caveat": "Mahjong is trending; full sets may be more capital/quality intensive and competitive.",
+    "model_score_100": 75.9,
+    "rank": 26
+  }
+]
