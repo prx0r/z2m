@@ -1,0 +1,132 @@
+{
+  "entry": {
+    "name": "ExampleState",
+    "tagline": "Live verified state for autonomous decisions",
+    "one_sentence_thesis": "ExampleState turns changing sponsor data into verified machine-readable state that changes an agent's decision.",
+    "target_user": "autonomous agents",
+    "irreversible_action": "none"
+  },
+  "hackathon": {
+    "name": "Example Hackathon",
+    "official_url": "https://example.invalid",
+    "rules_url": "https://example.invalid/rules",
+    "deadline_iso": "2026-12-01T23:59:00Z",
+    "timezone": "UTC",
+    "video_max_seconds": 180,
+    "video_min_seconds": null,
+    "repository_required": true,
+    "live_demo_required": false,
+    "preexisting_work_policy": "unknown"
+  },
+  "track": {
+    "name": "Best API Use",
+    "sponsor": "ExampleAPI",
+    "sponsor_docs": [
+      "https://example.invalid/docs"
+    ],
+    "required_technology": [],
+    "sponsor_capabilities": [
+      "search",
+      "archive"
+    ]
+  },
+  "rubric": [
+    {
+      "id": "originality",
+      "weight": 1,
+      "evidence": []
+    },
+    {
+      "id": "technical",
+      "weight": 1,
+      "evidence": []
+    },
+    {
+      "id": "sponsor",
+      "weight": 1,
+      "evidence": []
+    },
+    {
+      "id": "presentation",
+      "weight": 1,
+      "evidence": []
+    },
+    {
+      "id": "impact",
+      "weight": 1,
+      "evidence": []
+    }
+  ],
+  "product": {
+    "before_state": "Agent makes a rational choice using stale market state.",
+    "transformation": "Fresh sponsor discovery is resolved to authoritative evidence and validated.",
+    "after_state": "The same agent changes its action using current verified state.",
+    "sponsor_heavy_lifting_sentence": "ExampleAPI supplies live discovery and request provenance that makes state current and replayable.",
+    "removal_test": "the system can validate known facts but cannot discover changing state in real time",
+    "startup_wedge": "Reusable live-state API for routing agents.",
+    "future_layer_not_shipped": []
+  },
+  "integration": {
+    "endpoints": [
+      "search",
+      "archive"
+    ],
+    "fresh_revalidation_before_write": false,
+    "human_approval_before_write": false,
+    "idempotency_for_writes": false,
+    "fail_closed_conditions": [
+      "no authoritative source",
+      "validation failure",
+      "sponsor timeout"
+    ]
+  },
+  "proof": {
+    "tests_command": "pytest -q",
+    "expected_test_count": null,
+    "ci_url": "https://example.invalid/ci",
+    "live_demo_url": "https://example.invalid/demo",
+    "repo_url": "https://github.com/example/example",
+    "video_url": "",
+    "receipts": [
+      "request_id",
+      "source_hash",
+      "validation_result"
+    ],
+    "screenshots": []
+  },
+  "claims": {
+    "shipped": [
+      "live discovery",
+      "verification",
+      "HTTP API"
+    ],
+    "prototype": [
+      "MCP"
+    ],
+    "planned": [
+      "x402 payment enforcement"
+    ]
+  },
+  "recording": {
+    "target_seconds": 155,
+    "hook_seconds": 10,
+    "first_working_behavior_seconds": 30,
+    "centerpiece": "stale decision -> fresh evidence -> changed action",
+    "closing_line": "Agents need live state, not confident guesses."
+  },
+  "gates": {
+    "G0_rules": true,
+    "G1_rubric": true,
+    "G2_thesis": true,
+    "G3_sponsor": true,
+    "G4_core": true,
+    "G5_safety": true,
+    "G6_proof": true,
+    "G7_landing": true,
+    "G8_demo": true,
+    "G9_script": true,
+    "G10_repo": true,
+    "G11_submission": false,
+    "G12_red_team": false
+  }
+}

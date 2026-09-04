@@ -1,0 +1,14 @@
+{
+  "name": "AI personalized memory magazine",
+  "pinterest_persistence": 0.90,
+  "current_acceleration": 1.00,
+  "seasonal_recurrence": 0.85,
+  "commerce_intent": 0.90,
+  "cross_platform": 0.90,
+  "economics": 0.95,
+  "creative_surface": 1.00,
+  "giftability": 1.00,
+  "execution_speed": 0.95,
+  "localization_portability": 0.90,
+  "penalty": 0
+}

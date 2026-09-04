@@ -1,0 +1,16 @@
+{
+  "name": "LiveLLM",
+  "thesis": "The live economic-state layer for AI agents.",
+  "memorable": "The agent's math was correct. Its market state was wrong.",
+  "sponsor": "SerpApi",
+  "transformation": [
+    "stale market state",
+    "live search",
+    "official-source evidence",
+    "deterministic validation",
+    "fresh state",
+    "different routing decision"
+  ],
+  "infra_category": "live state / routing economics",
+  "danger": "Do not present a value multiple as monthly cost; do not claim x402 enforcement when only the shape exists."
+}

@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{{PROJECT_NAME}}</title>
+<style>
+body{font-family:system-ui,sans-serif;margin:0;color:#111;background:#fafafa;line-height:1.6}
+main{max-width:980px;margin:auto;padding:72px 24px}
+.hero{text-align:center;padding:48px 0 72px}
+h1{font-size:clamp(2.3rem,7vw,4.5rem);line-height:1;letter-spacing:-.05em;margin:.3em 0}
+.lead{max-width:680px;margin:auto;color:#555;font-size:1.15rem}
+.actions{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:28px}
+a.button{padding:11px 18px;border:1px solid #111;border-radius:8px;text-decoration:none;color:#111;font-weight:650}
+a.primary{background:#111;color:#fff}
+section{padding:56px 0;border-top:1px solid #e7e7e7}
+.pipeline{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:8px;margin-top:24px}
+.step{border:1px solid #ddd;background:#fff;border-radius:10px;padding:16px;font-size:.9rem}
+.proof{background:#111;color:white;border-radius:16px;padding:28px}
+small{color:#777}
+</style>
+</head>
+<body>
+<main>
+  <div class="hero">
+    <small>{{TRACK}}</small>
+    <h1>{{ONE_LINE_THESIS}}</h1>
+    <p class="lead">{{ONE_SENTENCE_VALUE}}</p>
+    <div class="actions">
+      <a class="button primary" href="{{DEMO_URL}}">Run Live Demo</a>
+      <a class="button" href="{{VIDEO_URL}}">Watch 3-Minute Demo</a>
+      <a class="button" href="{{REPO_URL}}">GitHub</a>
+    </div>
+  </div>
+
+  <section>
+    <h2>The problem</h2>
+    <p>{{PROBLEM}}</p>
+  </section>
+
+  <section>
+    <h2>One end-to-end transformation</h2>
+    <div class="pipeline">
+      <div class="step">{{BEFORE_STATE}}</div>
+      <div class="step">{{SPONSOR_ACTION}}</div>
+      <div class="step">{{VERIFIED_STATE}}</div>
+      <div class="step">{{PRODUCT_LOGIC}}</div>
+      <div class="step">{{CONSEQUENCE}}</div>
+      <div class="step">{{PROOF}}</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Where {{SPONSOR}} is indispensable</h2>
+    <p>{{SPONSOR_HEAVY_LIFTING_SENTENCE}}</p>
+  </section>
+
+  <section>
+    <div class="proof">
+      <h2>Proof, not promises</h2>
+      <p>{{PROOF_SUMMARY}}</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Built vs next</h2>
+    <p>{{BUILT_VS_NEXT}}</p>
+  </section>
+</main>
+</body>
+</html>

@@ -1,0 +1,16 @@
+{
+  "name": "ProofDesk",
+  "thesis": "An authority layer for document agents.",
+  "memorable": "High confidence. Still blocked.",
+  "sponsor": "Nutrient DWS",
+  "transformation": [
+    "PDF bundle",
+    "grounded extraction",
+    "cross-document contradiction",
+    "authority withheld",
+    "human resolution",
+    "audit receipt"
+  ],
+  "infra_category": "evidence / authority",
+  "danger": "Missing required evidence must block; REJECT must be terminal; provenance cannot be fabricated."
+}

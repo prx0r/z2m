@@ -1,0 +1,30 @@
+{
+  "claims": [
+    {
+      "id": "C001",
+      "text": "The live demo uses ExampleAPI search.",
+      "status": "DEMOED",
+      "evidence": [
+        "demo step 2",
+        "src/provider.py",
+        "integration test"
+      ],
+      "surfaces": [
+        "README.md",
+        "RECORDING-SCRIPT.md"
+      ]
+    },
+    {
+      "id": "C002",
+      "text": "Payment enforcement is supported.",
+      "status": "PLANNED",
+      "evidence": [
+        "roadmap only"
+      ],
+      "surfaces": [
+        "PITCH.md"
+      ],
+      "note": "Must be described as future work."
+    }
+  ]
+}

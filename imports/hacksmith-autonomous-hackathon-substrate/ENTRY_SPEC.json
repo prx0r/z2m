@@ -1,0 +1,108 @@
+{
+  "entry": {
+    "name": "REPLACE_ME",
+    "tagline": "",
+    "one_sentence_thesis": "",
+    "target_user": "",
+    "irreversible_action": "none"
+  },
+  "hackathon": {
+    "name": "",
+    "official_url": "",
+    "rules_url": "",
+    "deadline_iso": "",
+    "timezone": "",
+    "video_max_seconds": 180,
+    "video_min_seconds": null,
+    "repository_required": true,
+    "live_demo_required": false,
+    "preexisting_work_policy": "unknown"
+  },
+  "track": {
+    "name": "",
+    "sponsor": "",
+    "sponsor_docs": [],
+    "required_technology": [],
+    "sponsor_capabilities": []
+  },
+  "rubric": [
+    {
+      "id": "originality",
+      "weight": 1,
+      "evidence": []
+    },
+    {
+      "id": "technical",
+      "weight": 1,
+      "evidence": []
+    },
+    {
+      "id": "sponsor",
+      "weight": 1,
+      "evidence": []
+    },
+    {
+      "id": "presentation",
+      "weight": 1,
+      "evidence": []
+    },
+    {
+      "id": "impact",
+      "weight": 1,
+      "evidence": []
+    }
+  ],
+  "product": {
+    "before_state": "",
+    "transformation": "",
+    "after_state": "",
+    "sponsor_heavy_lifting_sentence": "",
+    "removal_test": "",
+    "startup_wedge": "",
+    "future_layer_not_shipped": []
+  },
+  "integration": {
+    "endpoints": [],
+    "fresh_revalidation_before_write": false,
+    "human_approval_before_write": false,
+    "idempotency_for_writes": false,
+    "fail_closed_conditions": []
+  },
+  "proof": {
+    "tests_command": "",
+    "expected_test_count": null,
+    "ci_url": "",
+    "live_demo_url": "",
+    "repo_url": "",
+    "video_url": "",
+    "receipts": [],
+    "screenshots": []
+  },
+  "claims": {
+    "shipped": [],
+    "prototype": [],
+    "planned": []
+  },
+  "recording": {
+    "target_seconds": 160,
+    "hook_seconds": 12,
+    "first_working_behavior_seconds": 35,
+    "centerpiece": "",
+    "closing_line": ""
+  },
+  "gates": {
+    "G0_rules": false,
+    "G1_rubric": false,
+    "G2_thesis": false,
+    "G3_sponsor": false,
+    "G4_core": false,
+    "G5_safety": false,
+    "G6_proof": false,
+    "G7_landing": false,
+    "G8_demo": false,
+    "G9_script": false,
+    "G10_repo": false,
+    "G11_submission": false,
+    "G12_red_team": false
+  }
+}

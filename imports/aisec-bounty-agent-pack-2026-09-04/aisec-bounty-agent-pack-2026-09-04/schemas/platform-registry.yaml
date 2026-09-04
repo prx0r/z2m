@@ -1,0 +1,118 @@
+generated_at: '2026-09-04'
+policy:
+  default_final_security_submission_requires_human: true
+  fail_closed_on_scope_change: true
+  secrets_in_prompt: false
+platforms:
+- id: hackerone
+  name: HackerOne
+  priority: A
+  automation_class: FULL_HEADLESS_SUBMISSION
+  sources:
+  - https://api.hackerone.com/hacker-resources/
+  - https://docs.hackerone.com/en/articles/15518592-post-submission-guide
+  - https://api.hackerone.com/
+- id: bugcrowd
+  name: Bugcrowd
+  priority: A
+  automation_class: PARTIAL_API_UI_SUBMISSION
+  sources:
+  - https://docs.bugcrowd.com/api/getting-started/
+  - https://docs.bugcrowd.com/api/usage/
+  - https://docs.bugcrowd.com/researchers/reporting-managing-submissions/submission-page/
+  - https://docs.bugcrowd.com/
+- id: 0din
+  name: 0DIN
+  priority: A
+  automation_class: UI_SUBMISSION_API_FOR_DEFENSE_ONLY
+  sources:
+  - https://0din.ai/research/quick_start
+  - https://0din.ai/policy
+  - https://www.0din.ai/docs/defense/quick-start
+- id: yeswehack
+  name: YesWeHack
+  priority: A
+  automation_class: PARTIAL_OAUTH_API
+  sources:
+  - https://apps.yeswehack.com/doc
+  - https://www.yeswehack.com/
+- id: intigriti
+  name: Intigriti
+  priority: A
+  automation_class: DISCOVERY_API_UI_SUBMISSION
+  sources:
+  - https://api.intigriti.com/external/researcher/swagger/index.html
+  - https://kb.intigriti.com/en/articles/8529303-intigriti-researcher-api
+  - https://kb.intigriti.com/en/articles/5379086-how-to-write-and-submit-a-good-report
+- id: cantina
+  name: Cantina
+  priority: A
+  automation_class: UI_WORKFLOW
+  sources:
+  - https://docs.cantina.xyz/for-security-researchers/joining-cantina/opportunities
+  - https://docs.cantina.xyz/for-security-researchers/participation-guides/competition-guidelines
+  - https://docs.cantina.xyz/cantina-code/cantina-code-for-security-researchers/findings/examples
+  - https://docs.cantina.xyz/for-security-researchers/joining-cantina/kyc
+- id: immunefi
+  name: Immunefi
+  priority: A
+  automation_class: UI_SUBMISSION
+  sources:
+  - https://immunefi.com/learn/
+  - https://immunefi.com/bug-bounty/
+  - https://immunefi.com/responsible-publication-guide/
+- id: gittensor
+  name: Gittensor SN74
+  priority: A
+  automation_class: HEADLESS_AFTER_SETUP
+  sources:
+  - https://docs.gittensor.io/miner.html
+  - https://docs.gittensor.io/oss-contributions.html
+  - https://docs.gittensor.io/
+- id: superteam
+  name: Superteam Earn
+  priority: B
+  automation_class: FULL_AGENT_NATIVE
+  sources:
+  - https://superteam.fun/earn/agents
+  - https://superteam.fun/skill.md
+  - https://superteam.fun/heartbeat.md
+- id: hackenproof
+  name: HackenProof
+  priority: B
+  automation_class: UI_SUBMISSION_WITH_INTEGRATIONS
+  sources:
+  - https://hackenproof.com/programs
+  - https://hackenproof.com/bug-bounty-platform
+  - https://hackenproof.com/contacts
+- id: sherlock
+  name: Sherlock
+  priority: B
+  automation_class: GITHUB_NATIVE_HUMAN_JOIN
+  sources:
+  - https://docs.sherlock.xyz/audits/watsons
+  - https://docs.sherlock.xyz/audits/judging/guidelines
+  - https://docs.sherlock.xyz/audits/watsons/meeting-the-payout-criteria
+  - https://docs.sherlock.xyz/audits/watsons/first-submission-pot
+- id: algora
+  name: Algora
+  priority: C
+  automation_class: GITHUB_NATIVE
+  sources:
+  - https://algora.io/algora/bounties
+  - https://algora.io/
+- id: clustly
+  name: Clustly
+  priority: C
+  automation_class: FULL_AGENT_NATIVE
+  sources:
+  - https://clustly.ai/docs
+  - https://clustly.ai/
+- id: bountybook
+  name: BountyBook
+  priority: C
+  automation_class: FULL_AGENT_NATIVE_BETA
+  sources:
+  - https://www.bountybook.ai/docs
+  - https://www.bountybook.ai/
+  - https://www.bountybook.ai/llms.txt

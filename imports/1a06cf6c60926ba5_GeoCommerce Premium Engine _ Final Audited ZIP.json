@@ -1,0 +1,14 @@
+{
+  "id": "1a06cf6c60926ba5",
+  "subject": "GeoCommerce Premium Engine \u2014 Final Audited ZIP",
+  "from": "Prior Trades <tradesprior@gmail.com>",
+  "date": "Fri, 4 Sep 2026 08:08:25 -0700",
+  "snippet": "Final audited GeoCommerce Premium Engine attached. Audit status: - 20/20 tests passing - static audit passing - fresh Uvicorn boot smoke test passing - storefront/advisor/admin-auth HTTP checks passing",
+  "attachments": [
+    {
+      "filename": "geocommerce_premium_engine_final.zip",
+      "size": 86197,
+      "path": "/root/z2m/imports/geocommerce_premium_engine_final.zip"
+    }
+  ]
+}

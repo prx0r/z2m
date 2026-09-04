@@ -1,0 +1,4 @@
+candidate,market,search_volume_monthly,cpc_est,retail_price,landed_cost,shipping_days,shopping_competitors,same_item_price_gap_pct,q4_seasonality_0_10,giftability_0_10,localization_gap_0_10,supplier_reliability_0_10,return_risk_0_10,regulatory_risk_0_10,notes
+Example: personalized pet keepsake,UK,12000,0.55,79,18,4,18,25,9,10,7,8,2,1,Illustrative only; replace with real Keyword Planner/SERP/supplier data
+Example: trading card display storage,UK,8000,0.65,89,25,5,12,15,8,9,6,8,2,2,Illustrative only
+Example: travel organizer bundle,UK,15000,0.7,74,20,4,22,20,7,8,5,9,2,1,Illustrative only

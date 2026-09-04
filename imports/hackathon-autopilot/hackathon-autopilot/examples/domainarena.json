@@ -1,0 +1,19 @@
+{
+  "name": "DomainArena",
+  "thesis": "A/B testing for domain names in the agentic web.",
+  "memorable": "Measure the name before you buy it.",
+  "sponsor": "name.com",
+  "transformation": [
+    "product intent",
+    "live inventory",
+    "blind agent test",
+    "measured winner",
+    "fresh recheck",
+    "human approval",
+    "registration",
+    "DNS readback",
+    "receipt"
+  ],
+  "infra_category": "identity / discovery",
+  "danger": "Never let a public demo auto-spend while claiming human approval; use current API semantics, fresh availability, idempotency."
+}

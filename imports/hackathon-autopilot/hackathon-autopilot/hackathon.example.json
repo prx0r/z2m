@@ -1,0 +1,79 @@
+{
+  "project_name": "ExampleEntry",
+  "hackathon": "Example Hackathon",
+  "track": "Example Sponsor Track",
+  "deadline": "2026-12-01T23:59:00-08:00",
+  "video": {
+    "min_seconds": 120,
+    "max_seconds": 240
+  },
+  "repo_required": true,
+  "live_demo_required": true,
+  "sponsor": {
+    "name": "ExampleAPI",
+    "causal": true,
+    "capabilities_used": [
+      "search",
+      "get",
+      "write",
+      "readback"
+    ],
+    "destructive_capabilities": [
+      "write"
+    ],
+    "freshness_required": true,
+    "idempotency_required": true
+  },
+  "rubric": [
+    {
+      "name": "Sponsor integration depth",
+      "weight": 0.25,
+      "required_evidence": [
+        "multiple capabilities",
+        "visible trace",
+        "core dependence"
+      ]
+    },
+    {
+      "name": "Originality",
+      "weight": 0.2,
+      "required_evidence": [
+        "distinct insight"
+      ]
+    },
+    {
+      "name": "Technical execution",
+      "weight": 0.2,
+      "required_evidence": [
+        "green CI",
+        "edge cases",
+        "failure handling"
+      ]
+    },
+    {
+      "name": "Real-world viability",
+      "weight": 0.2,
+      "required_evidence": [
+        "clear user",
+        "credible wedge"
+      ]
+    },
+    {
+      "name": "Presentation",
+      "weight": 0.15,
+      "required_evidence": [
+        "canonical demo",
+        "clear README",
+        "video in range"
+      ]
+    }
+  ],
+  "canonical_demo": {
+    "before": "uncertain or bad initial state",
+    "sponsor_action": "real sponsor call",
+    "verified_state": "structured verified result",
+    "decision": "product-specific decision",
+    "consequence": "action or withheld action",
+    "proof": "receipt/readback/audit"
+  }
+}

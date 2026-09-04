@@ -1,0 +1,34 @@
+# Source Index
+
+- **S1 — Moonpig Group FY26 Results**: https://www.moonpig.group/media/moonpig-group-plc-fy26-results-announcement.html
+- **S2 — Moonpig Strategy / AI personalization**: https://www.moonpig.group/about-us/our-strategy/
+- **S3 — Moonpig AI Writing Assistant**: https://www.moonpig.com/uk/personalised-cards/smart-text/
+- **S4 — Moonpig Features**: https://www.moonpig.com/us/moonpig-features/
+- **S5 — Prodigi classic greeting cards**: https://www.prodigi.com/products/cards-and-stationery/greetings-cards/classic-greetings-cards/
+- **S6 — Prodigi fine-art greeting cards**: https://www.prodigi.com/products/cards-and-stationery/greetings-cards/fine-art-greetings-cards/
+- **S7 — Personalized gifts market (Fortune Business Insights)**: https://www.fortunebusinessinsights.com/personalized-gifts-market-107954
+- **S8 — Personalized gifts market (Grand View Research)**: https://www.grandviewresearch.com/industry-analysis/personalized-gifts-market-report
+- **S9 — Etsy — custom where-we-met gifts**: https://www.etsy.com/market/custom_where_we_met_gift
+- **S10 — Etsy — personalized recipe book**: https://www.etsy.com/market/personalized_recipe_book
+- **S11 — Etsy — custom pet portrait gifts**: https://www.etsy.com/market/custom_pet_portrait_gifts
+- **S12 — Etsy — personalized newspaper birthday gift**: https://www.etsy.com/market/personalized_newspaper_birthday_gift
+- **S13 — Etsy — custom song personalized gift**: https://www.etsy.com/market/custom_song_personalized_gift
+- **S14 — Etsy — personalized book anniversary gift**: https://www.etsy.com/market/personalized_book_anniversary_gift
+- **S15 — Etsy — personalized crossword**: https://www.etsy.com/listing/1000248941/20-custom-crossword-puzzles-personalized
+- **S16 — Etsy — photo coloring book**: https://www.etsy.com/listing/1791285188/printed-custom-coloring-book-from-photos
+- **S17 — Etsy — family portrait**: https://www.etsy.com/listing/1814285021/custom-family-portrait-from-photo
+- **S18 — Etsy — home renovation spreadsheet**: https://www.etsy.com/market/home_renovation_spreadsheet
+- **S19 — Etsy — wedding vendor spreadsheet**: https://www.etsy.com/market/wedding_vendor_spreadsheet
+- **S20 — Etsy — Airbnb host template**: https://www.etsy.com/market/airbnb_host_template
+- **S21 — Etsy — moving abroad checklist**: https://www.etsy.com/market/moving_abroad_checklist
+- **S22 — Etsy — golf practice planner**: https://www.etsy.com/market/golf_practice_planner
+- **S23 — Etsy — RV checklist digital**: https://www.etsy.com/market/digital_rv_checklist
+- **S24 — Storyworth pricing**: https://help.storyworth.com/en_US/book-pricing
+- **S25 — Remento pricing**: https://help.remento.co/en/articles/8365892-remento-s-pricing-guide
+- **S26 — Wonderbly personalized children's book**: https://www.wonderbly.com/personalized-products/the-wondrous-road-book
+- **S27 — LoveBook anniversary book**: https://lovebookonline.com/shopping-lovebook-anniversary-gifts
+- **S28 — Songfinch custom songs**: https://www.songfinch.com/products/personalized-song
+- **S29 — Etsy AI / creativity standards**: https://www.etsy.com/legal/creativity/
+- **S30 — Amazon KDP content guidelines**: https://kdp.amazon.com/en_US/help/topic/G200672390
+- **S31 — Google Holiday 100 2025**: https://blog.google/products-and-platforms/products/shopping-payments/holiday-100-2025/
+- **S32 — Etsy Fall/Winter 2025 trend report**: https://www.etsy.com/ca/seller-handbook/article/1417223353768

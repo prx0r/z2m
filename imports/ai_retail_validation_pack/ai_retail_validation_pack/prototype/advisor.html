@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Advisor</title>
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+  <header class="nav">
+    <a href="index.html" class="wordmark" id="wordmark">Studio</a>
+    <div class="nav-note" id="navNote">Specialist buying, simplified.</div>
+  </header>
+  <main>
+    <section class="hero" id="hero">
+      <div class="hero-copy">
+        <div class="eyebrow" id="eyebrow"></div>
+        <h1 id="headline"></h1>
+        <p id="subhead" class="lede"></p>
+        <div class="trust-row" id="trustRow"></div>
+      </div>
+      <div class="advisor-card">
+        <div class="advisor-head">
+          <span class="pulse"></span>
+          <div>
+            <strong id="advisorName">Specialist advisor</strong>
+            <small>Fast, catalogue-grounded guidance</small>
+          </div>
+        </div>
+        <div id="conversation" class="conversation"></div>
+        <div id="choices" class="choices"></div>
+      </div>
+    </section>
+
+    <section class="proof">
+      <div><span>01</span><h3>Tell us the job</h3><p id="proof1"></p></div>
+      <div><span>02</span><h3>We configure</h3><p id="proof2"></p></div>
+      <div><span>03</span><h3>One clear next step</h3><p id="proof3"></p></div>
+    </section>
+  </main>
+
+  <div class="modal hidden" id="resultModal">
+    <div class="modal-panel">
+      <button class="close" id="closeModal">×</button>
+      <div class="eyebrow" id="resultEyebrow">YOUR RECOMMENDATION</div>
+      <h2 id="resultTitle"></h2>
+      <p id="resultIntro"></p>
+      <div class="bundle" id="bundle"></div>
+      <div class="total-row"><span id="totalLabel">Illustrative total</span><strong id="total"></strong></div>
+      <p class="result-note" id="resultNote"></p>
+      <button class="primary" id="primaryAction"></button>
+      <button class="secondary" id="restart">Start again</button>
+    </div>
+  </div>
+
+  <script src="assets/configs.js"></script>
+  <script src="assets/core.js"></script>
+</body>
+</html>

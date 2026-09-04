@@ -1,0 +1,2 @@
+GATES = [
+("G0_rules","Rules extracted"),("G1_rubric","Rubric interpreted"),("G2_thesis","Memorable thesis frozen"),("G3_sponsor","Sponsor causality proven"),("G4_core","Working core exists"),("G5_safety","Safety boundaries proven"),("G6_proof","Evidence package exists"),("G7_landing","Landing page judge-ready"),("G8_demo","Demo reliable"),("G9_script","Script matches screen"),("G10_repo","Repo judge-ready"),("G11_submission","Submission complete"),("G12_red_team","Final red-team passed")]

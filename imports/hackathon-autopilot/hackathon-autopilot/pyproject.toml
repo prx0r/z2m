@@ -1,0 +1,8 @@
+[project]
+name = "hackathon-autopilot"
+version = "0.1.0"
+description = "Judge-driven substrate for autonomous hackathon agents"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

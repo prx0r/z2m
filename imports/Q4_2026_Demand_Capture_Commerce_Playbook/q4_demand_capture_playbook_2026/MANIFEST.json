@@ -1,0 +1,30 @@
+{
+  "name": "Q4 2026 Demand-Capture Commerce Playbook",
+  "generated_at": "2026-09-04",
+  "files": [
+    "00_EXECUTIVE_DECISION.md",
+    "01_THESIS_AUDIT.md",
+    "02_Q4_2026_OPPORTUNITY_MAP.md",
+    "03_OPERATOR_PLAYBOOKS.md",
+    "04_GOOGLE_ADS_LAUNCH_SOP.md",
+    "05_FEED_AI_SHOPPING_PLAYBOOK.md",
+    "06_LOCALIZATION_ARBITRAGE.md",
+    "07_LOW_CAPITAL_METHODS.csv",
+    "07_LOW_CAPITAL_METHODS.md",
+    "08_UNIT_ECONOMICS.md",
+    "09_90_DAY_Q4_PLAN.md",
+    "10_GMC_COMPLIANCE_CHECKLIST.md",
+    "11_HOURLY_RESEARCH_RECIPE.md",
+    "12_REDDIT_SIGNAL_LEDGER.csv",
+    "13_EXPERIMENT_BACKLOG.md",
+    "14_FAILURE_MODES.md",
+    "README.md",
+    "SOURCE_LEDGER.csv",
+    "scanner/README.md",
+    "scanner/q4_opportunity_ranker.py",
+    "templates/PRODUCT_CANDIDATES_TEMPLATE.csv"
+  ],
+  "source_count": 34,
+  "method_count": 24,
+  "note": "Research synthesis. Operator revenue claims are marked as self-reported; validate all product opportunities with live data before spending."
+}
