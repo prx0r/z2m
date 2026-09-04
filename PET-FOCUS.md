@@ -172,3 +172,58 @@ Month 12: £100,000 (compound growth)
 6. Iterate
 
 **Everything else can wait. The pet agent is the moonshot.**
+
+---
+
+## Brand Naming (Updated)
+
+**Don't use:** wishlight.dev (trademark conflict, wrong TLD)
+
+**Do use:** something in the magical/premium/memory territory
+
+### Top candidates:
+- **Wishloom** — "weaves memories into gifts"
+- **Everglow** — premium, emotional
+- **Starling House** — magical, broad
+- **Storyloom** — explains the engine
+- **For Keeps** — emotional, simple
+
+### Domain strategy:
+- `brand.com` — consumer gifting
+- `studio.brand.com` — creation experience
+- `brand.dev` — internal/API/B2B
+
+### The CTA:
+> **Make something for someone.**
+
+### Architecture:
+```
+brand.com
+├── /pets → Pet Collection
+├── /family → Family Annual / Memory
+├── /couples → Anniversary / Wedding
+├── /home → Kitchen / Renovation
+├── /golf → Training / Gear
+├── /coffee → Experience Boxes
+└── /corporate → Client Gifts
+```
+
+### The meta-product:
+**Recipient-to-product compiler:**
+
+```
+PERSON
+photos + memories + interests + dates + tastes
+        ↓
+PERSONALIZATION ENGINE
+        ↓
+DIGITAL              PHYSICAL
+annual               ornament
+astrology            mug
+comic                calendar
+song                 book
+crossword            cards
+guide                coffee/chocolate box
+```
+
+**One engine. Infinite products. The brand is the platform.**
