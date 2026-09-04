@@ -1,0 +1,21 @@
+brand: "MicroQuote"
+vertical: "home inspection"
+country: "UK"
+currency: "GBP"
+public_path: "home-inspection"
+headline: "Get matched with suitable home inspectors"
+subhead: "Answer a few questions. We route your enquiry only to providers who fit the job and area."
+lead_price:
+  base: 35
+  exclusive_multiplier: 1.7
+  max: 120
+questions:
+  - {name: postcode, label: "Postcode", type: text, required: true, weight: 0.10}
+  - {name: service, label: "Service needed", type: select, options: ["home survey", "new-build snagging", "damp inspection", "other"], required: true, weight: 0.20}
+  - {name: budget, label: "Budget", type: select, options: ["under 300", "300-600", "600-1200", "1200+"], required: true, weight: 0.20}
+  - {name: urgency, label: "When do you need it?", type: select, options: ["today", "this week", "this month", "researching"], required: true, weight: 0.20}
+  - {name: property_type, label: "Property type", type: select, options: ["flat", "terrace", "semi", "detached", "commercial"], required: true, weight: 0.10}
+  - {name: details, label: "Anything providers should know?", type: textarea, required: false, weight: 0.20}
+quality_rules:
+  urgency: {today: 1.0, "this week": 0.9, "this month": 0.65, researching: 0.25}
+  budget: {"under 300": 0.3, "300-600": 0.55, "600-1200": 0.8, "1200+": 1.0}

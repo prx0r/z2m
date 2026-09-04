@@ -1,0 +1,9 @@
+services:
+  ecom-agents:
+    build: .
+    ports: ["8000:8000"]
+    env_file: .env
+    volumes:
+      - ./runtime:/app/runtime
+    environment:
+      DATABASE_PATH: /app/runtime/ecom_agents.db

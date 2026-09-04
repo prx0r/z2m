@@ -1,0 +1,45 @@
+{
+  "schema": 2,
+  "reviewed_at": "2026-08-21",
+  "components": {
+    "aether": {
+      "repo": "contextbridge/aether",
+      "reviewed_sha": "4a901dac2c0206ab9fa7fcbce75f64d91f4a0d2a",
+      "reviewed_cli_release": "0.7.37",
+      "role": "orchestrator",
+      "install_policy": "official latest-release installer; re-run tests before accepting a major/breaking upgrade",
+      "required_features": [
+        "headless",
+        "project settings",
+        "MCP file sources",
+        "MCP proxy discovery",
+        "OpenRouter/Anthropic/OpenAI provider support"
+      ]
+    },
+    "sandboxd": {
+      "repo": "tastyeffectco/sandboxd",
+      "reviewed_sha": "15e1b21822ec056101db259d85feb28c3b7fa9ff",
+      "role": "sandbox + coding worker + preview + workspace export",
+      "api_contract_reviewed": "0.3.0",
+      "required_features": [
+        "/v1/apps",
+        "/v1/apps/{id}/sandbox",
+        "/v1/sandboxes/{id}/tasks",
+        "/v1/sandboxes/{id}/tasks/{taskId}",
+        "/v1/sandboxes/{id}/export",
+        "/v1/apps/{id}/git/status",
+        "/v1/apps/{id}/git/diff",
+        "/v1/agents/{provider}/import"
+      ]
+    },
+    "opencode": {
+      "repo": "anomalyco/opencode",
+      "role": "default sandboxd coding worker",
+      "install_policy": "managed by sandboxd; provider credential bundle follows current OpenCode auth.json shape"
+    },
+    "hermes": {
+      "repo": "NousResearch/hermes-agent",
+      "role": "optional outer durable scheduler only"
+    }
+  }
+}

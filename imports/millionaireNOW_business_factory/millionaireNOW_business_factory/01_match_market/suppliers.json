@@ -1,0 +1,5 @@
+[
+  {"id":"s1","name":"Demo Inspector North","postcodes":["N","NW","EN"],"services":["home survey","new-build snagging"],"capacity":8,"quality":0.86,"response_minutes":20,"accepts_exclusive":true},
+  {"id":"s2","name":"Demo Property Survey Co","postcodes":["SE","SW","BR"],"services":["home survey","damp inspection"],"capacity":5,"quality":0.91,"response_minutes":45,"accepts_exclusive":true},
+  {"id":"s3","name":"Demo National Surveys","postcodes":["ALL"],"services":["home survey","new-build snagging","damp inspection","other"],"capacity":20,"quality":0.74,"response_minutes":90,"accepts_exclusive":false}
+]

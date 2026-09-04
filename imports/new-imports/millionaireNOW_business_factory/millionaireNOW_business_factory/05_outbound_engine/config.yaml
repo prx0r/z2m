@@ -1,0 +1,8 @@
+brand: "VerticalOutbound"
+vertical: "MSP to 20-100 employee businesses"
+offer: "Free 10-minute website + IT buying-readiness review"
+meeting_value_gbp: 350
+qualification:
+  required_signals: ["business website", "relevant geography"]
+  positive_keywords: ["team", "locations", "services", "careers", "contact"]
+  pain_keywords: ["IT support", "cybersecurity", "Microsoft 365", "managed services"]

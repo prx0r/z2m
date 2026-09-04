@@ -1,0 +1,5 @@
+{
+  "kind": "arena402.routing_replay",
+  "version": "1",
+  "description": "One-step deterministic replay world for x402/provider routing"
+}

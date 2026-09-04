@@ -1,0 +1,7 @@
+brand: "FreshCompare"
+vertical: "business software"
+currency: "USD"
+headline: "Compare current offers with visible freshness"
+description: "A comparison engine that exposes the source, last-check time and ranking logic instead of publishing stale listicles."
+freshness_hours: 72
+weights: {fit: 0.42, value: 0.30, freshness: 0.18, evidence: 0.10}

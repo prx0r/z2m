@@ -1,0 +1,5 @@
+[
+  {"id":"p1","name":"Demo Compact Infrared 2P","price":4499,"supplier_cost":3300,"shipping_cost":180,"currency":"USD","capacity":2,"location":["indoor"],"tags":["compact","infrared"],"warranty_years":5,"source_url":"https://example.com/p1","buy_url":"https://example.com/p1?ref=replace","checked_at":"2026-09-04T08:00:00Z","availability":"InStock"},
+  {"id":"p2","name":"Demo Traditional Outdoor 3P","price":8999,"supplier_cost":6600,"shipping_cost":450,"currency":"USD","capacity":3,"location":["outdoor"],"tags":["traditional"],"warranty_years":7,"source_url":"https://example.com/p2","buy_url":"https://example.com/p2?ref=replace","checked_at":"2026-09-03T08:00:00Z","availability":"InStock"},
+  {"id":"p3","name":"Demo Premium Infrared 3P","price":12999,"supplier_cost":9300,"shipping_cost":500,"currency":"USD","capacity":3,"location":["indoor","outdoor"],"tags":["infrared","warranty"],"warranty_years":10,"source_url":"https://example.com/p3","buy_url":"https://example.com/p3?ref=replace","checked_at":"2026-08-29T08:00:00Z","availability":"InStock"}
+]

@@ -1,0 +1,28 @@
+{
+  "servers": {
+    "builder": {
+      "command": "python3",
+      "args": ["-m", "agentbuild.mcp.builder"]
+    },
+    "frontier-web": {
+      "command": "python3",
+      "args": ["-m", "agentbuild.mcp.frontier_web"]
+    },
+    "control": {
+      "command": "python3",
+      "args": ["-m", "agentbuild.mcp.control"]
+    },
+    "coding": {
+      "type": "in-memory",
+      "args": ["--rules-dir", "./.aether/skills"]
+    },
+    "skills": {
+      "type": "in-memory",
+      "args": ["--dir", "./.aether/skills"]
+    },
+    "tasks": {"type": "in-memory"},
+    "subagents": {"type": "in-memory"},
+    "survey": {"type": "in-memory"},
+    "plan": {"type": "in-memory", "args": ["contextbridge", "plan"]}
+  }
+}

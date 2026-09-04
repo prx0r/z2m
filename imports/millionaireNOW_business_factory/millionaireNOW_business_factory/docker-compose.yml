@@ -1,0 +1,36 @@
+services:
+  match_market:
+    build: .
+    working_dir: /app/01_match_market
+    command: uvicorn app:app --host 0.0.0.0 --port 8101
+    volumes: ["./01_match_market:/app/01_match_market"]
+    ports: ["8101:8101"]
+    env_file: .env
+  verified_compare:
+    build: .
+    working_dir: /app/02_verified_compare
+    command: uvicorn app:app --host 0.0.0.0 --port 8102
+    volumes: ["./02_verified_compare:/app/02_verified_compare"]
+    ports: ["8102:8102"]
+    env_file: .env
+  ai_site_audit:
+    build: .
+    working_dir: /app/03_ai_site_audit
+    command: uvicorn app:app --host 0.0.0.0 --port 8103
+    volumes: ["./03_ai_site_audit:/app/03_ai_site_audit"]
+    ports: ["8103:8103"]
+    env_file: .env
+  premium_advisor_store:
+    build: .
+    working_dir: /app/04_premium_advisor_store
+    command: uvicorn app:app --host 0.0.0.0 --port 8104
+    volumes: ["./04_premium_advisor_store:/app/04_premium_advisor_store"]
+    ports: ["8104:8104"]
+    env_file: .env
+  outbound_engine:
+    build: .
+    working_dir: /app/05_outbound_engine
+    command: uvicorn app:app --host 0.0.0.0 --port 8105
+    volumes: ["./05_outbound_engine:/app/05_outbound_engine"]
+    ports: ["8105:8105"]
+    env_file: .env

@@ -1,0 +1,5 @@
+brand: "AI Visibility Audit"
+vertical: "local business"
+headline: "See what search engines, AI crawlers and buyers can actually understand"
+weights: {crawlability: 0.25, machine_readability: 0.25, trust: 0.20, conversion: 0.20, freshness: 0.10}
+max_bytes: 1500000

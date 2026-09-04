@@ -1,0 +1,134 @@
+{
+  "agent": "default",
+  "agents": [
+    {
+      "name": "default",
+      "description": "AgentBuild production orchestrator",
+      "model": "openrouter:xiaomi/mimo-v2.5",
+      "reasoningEffort": "high",
+      "userInvocable": true,
+      "prompts": [
+        ".aether/SYSTEM.md"
+      ],
+      "mcps": [
+        {
+          "type": "file",
+          "path": ".aether/mcp.json",
+          "proxy": true
+        }
+      ]
+    },
+    {
+      "name": "reader",
+      "description": "Convert a blueprint into testable requirements without inventing scope",
+      "model": "openrouter:xiaomi/mimo-v2.5",
+      "reasoningEffort": "medium",
+      "userInvocable": false,
+      "agentInvocable": true,
+      "prompts": [
+        ".aether/agents/reader.md"
+      ],
+      "mcps": [
+        {
+          "type": "file",
+          "path": ".aether/mcp.json",
+          "proxy": true
+        }
+      ],
+      "tools": {
+        "allow": [
+          "coding__read*",
+          "coding__list*",
+          "coding__grep*",
+          "survey__*",
+          "plan__*"
+        ]
+      }
+    },
+    {
+      "name": "architect",
+      "description": "Design a minimal robust implementation from a structured spec",
+      "model": "openrouter:xiaomi/mimo-v2.5",
+      "reasoningEffort": "high",
+      "userInvocable": false,
+      "agentInvocable": true,
+      "prompts": [
+        ".aether/agents/architect.md"
+      ],
+      "mcps": [
+        {
+          "type": "file",
+          "path": ".aether/mcp.json",
+          "proxy": true
+        }
+      ],
+      "tools": {
+        "allow": [
+          "coding__read*",
+          "coding__list*",
+          "coding__grep*",
+          "skills__*",
+          "plan__*",
+          "survey__*"
+        ]
+      }
+    },
+    {
+      "name": "reviewer",
+      "description": "Review evidence and verified release-gate output",
+      "model": "openrouter:xiaomi/mimo-v2.5",
+      "reasoningEffort": "high",
+      "userInvocable": false,
+      "agentInvocable": true,
+      "prompts": [
+        ".aether/agents/reviewer.md"
+      ],
+      "mcps": [
+        {
+          "type": "file",
+          "path": ".aether/mcp.json",
+          "proxy": true
+        }
+      ],
+      "tools": {
+        "allow": [
+          "frontier-web__*",
+          "control__*",
+          "builder__project_*",
+          "builder__read_project_file",
+          "builder__list_project_files",
+          "coding__read*",
+          "coding__list*",
+          "skills__*"
+        ]
+      }
+    },
+    {
+      "name": "deployer",
+      "description": "Privileged deployment verifier; dormant unless deployment tools are configured",
+      "model": "openrouter:xiaomi/mimo-v2.5",
+      "reasoningEffort": "high",
+      "userInvocable": false,
+      "agentInvocable": true,
+      "prompts": [
+        ".aether/agents/deployer.md"
+      ],
+      "mcps": [
+        {
+          "type": "file",
+          "path": ".aether/mcp.json",
+          "proxy": true
+        }
+      ],
+      "tools": {
+        "allow": [
+          "control__*",
+          "frontier-web__*",
+          "builder__project_*",
+          "coding__read*",
+          "coding__list*"
+        ]
+      }
+    }
+  ]
+}

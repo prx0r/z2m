@@ -1,0 +1,14 @@
+brand: "PremiumAdvisor"
+vertical: "home sauna"
+currency: "USD"
+headline: "Find the right home sauna without opening 20 tabs"
+mode: "affiliate"
+min_contribution_margin: 0.12
+processor_percent: 0.03
+return_reserve_percent: 0.04
+weights: {fit: 0.46, value: 0.18, freshness: 0.12, warranty: 0.12, margin: 0.12}
+questions:
+  - {name: budget, label: "Budget", type: select, options: ["under-3000","3000-6000","6000-12000","12000+"]}
+  - {name: people, label: "How many people?", type: select, options: ["1","2","3+"]}
+  - {name: indoor, label: "Location", type: select, options: ["indoor","outdoor","either"]}
+  - {name: priority, label: "Main priority", type: select, options: ["price","compact","traditional","infrared","warranty"]}
