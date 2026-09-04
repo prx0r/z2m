@@ -1,0 +1,15 @@
+{
+  "name": "star-at-night-api",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "hono": "^4.4.0",
+    "@hono/node-server": "^1.11.0",
+    "sharp": "^0.33.0",
+    "uuid": "^9.0.0"
+  }
+}

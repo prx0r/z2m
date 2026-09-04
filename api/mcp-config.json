@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "star-at-night": {
+      "url": "http://localhost:3000/mcp",
+      "transport": "http",
+      "description": "Star at Night - AI-powered personalized gift creation",
+      "tools": [
+        "upload_photo",
+        "create_session",
+        "generate_products",
+        "get_products"
+      ]
+    }
+  }
+}
