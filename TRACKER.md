@@ -64,7 +64,9 @@ Each day gets a log entry:
 - 5 specialist store model (home cinema, barista, dog travel, winter gear, travel org)
 
 ### Notes
-- Day 0. Machine built. Intel collected. Tomorrow we run it.
-- Priority: pick top 3 targets from oracle, worker runs first attack
-- Key insight: free Google listings = organic validation at zero cost
-- Key insight: 50 products/day × 60 days = 3,000 products by November
+- Day 0. Machine built. Intel collected. Strategy defined.
+- Core thesis: "Build the best AI sales layer for expensive things that other companies already know how to make and fulfil."
+- Three modes: own retailers, lead/broker, sell the stack
+- Key shift: visualizable outcome is now the most important variable
+- Creative cost collapsed: $2-5 per product vs $5K-20K traditional
+- Agent commerce is real: 2.5% of John Lewis searches, 11x YoY on Shopify
