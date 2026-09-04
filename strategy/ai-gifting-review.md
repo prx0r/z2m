@@ -255,3 +255,90 @@ This connects to:
 10. Email capture + reminders
 
 **This is the most complete, production-ready thesis in the entire z2m library.**
+
+---
+
+## Updated Research (Sept 2026)
+
+### Market Evidence
+- Moonpig: £373M revenue, 12.3M customers, 70% UK card share
+- Personalized gifts market: $35.95bn (2026) → $64.51bn (2034)
+- Etsy: 4,000+ custom gift items, thousands of reviews each
+- Q4 timing: Christmas gifts peak Sep-Dec
+
+### Why Personalized Gifts Win
+- Proven demand (Moonpig, Etsy data)
+- AI makes production cheap ($0.01-0.05/item)
+- No inventory risk (POD)
+- High perceived value
+- Repeat potential (birthdays, Christmas, "just because")
+- Low returns
+- Emotional buying
+
+### The 4 Reusable Engines
+
+| Engine | Products | Price Range |
+|--------|----------|-------------|
+| Story Engine | books, comics, newspapers, yearbooks | $20-60 |
+| Puzzle Engine | crosswords, quizzes, bingo, scavenger hunts | $15-40 |
+| Decision Engine | comparisons, audits, plans | $30-80 |
+| Card Wrapper | any digital → physical card + POD | $10-30 |
+
+### Top 10 Opportunities (Ranked)
+
+| Rank | Opportunity | Score | Why |
+|:----:|------------|:-----:|-----|
+| 1 | AI gift-finder sites | 94.6 | Recipient quiz → products |
+| 2 | Custom card game from memories | 91.9 | AI creates structured cards |
+| 3 | Family recipe heirloom cookbook | 91.9 | OCR + layout + narrative |
+| 4 | Personalized gallery wall prints | 91.9 | Cohesive set + room visualization |
+| 5 | Advent calendar (personalized) | 91.7 | Dynamic activity generation |
+| 6 | Vamp Romantic stationery | 91.6 | AI art direction |
+| 7 | Small-business holiday cards | 91.0 | Batch personalization |
+| 8 | Family annual / year-in-review | 90.8 | Automated curation |
+| 9 | Memory journal / year together | 90.3 | AI generates prompts |
+| 10 | Grandparent interview book | 90.3 | Adaptive prompts + story assembly |
+
+### The 3 Templates (cover 20+ opportunities)
+
+**Template 1: Recipient Quiz → Product**
+- 5 questions → AI recommends → personalized content → POD
+- Products: ornaments, cards, puzzles, mugs, calendars
+
+**Template 2: Memory → Physical Product**
+- Photos/names/dates → AI generates book/puzzle/card → POD
+- Products: yearbooks, storybooks, memory books, games
+
+**Template 3: Expert Comparison Engine**
+- Describe needs → AI compares in native language → affiliate revenue
+- Products: espresso, home cinema, workshop tools, pet products
+
+### What NOT to Build
+- Generic gift guide sites (saturated)
+- Single-product stores (no moat)
+- AI image generators (commoditizing)
+- "Moonpig but cheaper" (can't compete on brand)
+
+### What TO Build
+- **Specialist vertical stores** with AI advisor
+- **Recipient-aware creation engine** that remembers pets/people
+- **Cross-product personalization** from one input
+- **Recurring reminders** (birthdays, Christmas, "just because")
+
+### Revenue Model
+
+| Product | Price | POD Cost | Margin | Monthly (100 sales) |
+|---------|-------|----------|--------|-------------------:|
+| Pet Christmas Newspaper | £34 | £8 | 76% | £2,584 |
+| Pet Yearbook | £49 | £12 | 76% | £3,674 |
+| Pet Memory Card | £59 | £8 | 86% | £5,078 |
+| Custom Card Game | £39 | £10 | 74% | £2,886 |
+| Family Recipe Cookbook | £49 | £15 | 69% | £3,381 |
+| Gallery Wall Set | £45 | £12 | 73% | £3,285 |
+
+### The USP (One Sentence)
+
+> **"Tell us about your pet. We'll find the perfect gift."**
+
+Not "personalized pet products" (everyone does that).
+The AI advisor IS the product.
